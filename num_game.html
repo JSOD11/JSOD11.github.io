@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>NumGame</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="games/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="games/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<p id="curr_count">0</p>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<p id="target">test your speed</p>
+								<input type="text" id="input_num"/>
+							</div>
+						</div>
+						<!-- <div class="logo" id="stopwatch">0:00</div> -->
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				function runGame() {
+					var tick = new Date().getTime();
+					var N = 5, mistakes = 0, count = 0
+					var target = Math.floor(Math.random() * 9)
+					var input = document.getElementById("input_num");
+					document.getElementById("target").innerHTML = target;
+					
+					input.addEventListener("keyup", function(e) {
+						if (parseInt(input.value) === target) {
+							target = Math.floor(Math.random() * 9);
+							count++
+							document.getElementById("curr_count").innerHTML = count;
+							document.getElementById("target").innerHTML = target;
+							input.value = ""
+							if (count >= N) {
+								var tock = new Date().getTime();
+								var total_time = ((tock - tick) / 1000).toFixed(2);
+								var average_time = (total_time/N).toFixed(2)
+								alert("Your average time per click is " + average_time + "s\nYour total time is " + total_time + "s")
+								location.reload()
+							}
+						}
+					})
+				}
+
+				window.setTimeout(runGame, 2500)
+			</script>
+
+	</body>
+</html>
