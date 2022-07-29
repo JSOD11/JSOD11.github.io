@@ -11,12 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<script>
-      var x = document.getElementById("num").value;
-      console.log(x)
-	  </script>
-
 	</head>
 	<body class="is-preload">
 
@@ -26,10 +20,11 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<p id="curr_count">0</p>
 						</div>
 						<div class="content">
 							<div class="inner">
+								<p id="target"></p>
 								<input type="text" id="input_num" />
 							</div>
 						</div>
@@ -45,11 +40,51 @@
 			<div id="bg"></div>
 
 		<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				count = 0
+				let target = Math.floor(Math.random() * 9)
+				document.getElementById("target").innerHTML = target;
+
+				let input = document.getElementById("input_num");
+				input.addEventListener("keydown", function(e) {
+					console.log(input.value.concat(e.key))
+					if (parseInt(input.value.concat(e.key)) === target) {
+						count++;
+						document.getElementById("curr_count").innerHTML = count;
+						target = Math.floor(Math.random() * 9);
+						document.getElementById("target").innerHTML = target;
+						document.getElementById("input_num").value = "";
+					}
+				})
+			</script>
+
+			<!-- <script>
+				count = 0
+				let target = Math.floor(Math.random() * 9)
+				console.log(target)
+				document.getElementById("target").innerHTML = target;
+
+				let input = document.getElementById("input_num");
+				input.addEventListener("keydown", function(event) {
+				if (event.key === "Enter") {
+						console.log(parseInt(input.value));
+						if (parseInt(input.value) === target) {
+							count++;
+							document.getElementById("curr_count").innerHTML = count;
+							target = Math.floor(Math.random() * 9);
+							document.getElementById("target").innerHTML = target;
+							document.getElementById("input_num").value = "";
+						}
+					}
+				})
+			</script> -->
 
 	</body>
 </html>
