@@ -29,7 +29,7 @@ const About = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content">
+			<div className="page-content" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
 				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
@@ -42,11 +42,12 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									About me
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									I am a software engineer at Datadog in New York City. <br></br><br></br> I graduated from Harvard with a 3.97 GPA and concentrated in computer science with a secondary in mathematics and a citation in Spanish. I took enough graduate-level courses during undergrad to also graduate with a master's degree in computer science. I went to Westwood High School in my suburban hometown of Westwood, MA.
+									<br></br><br></br>
 								</div>
 							</div>
 
@@ -61,9 +62,9 @@ const About = () => {
 									</div>
 								</div>
 
-								<div className="about-socials">
+								{/* <div className="about-socials">
 									<Socials />
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="about-socials-mobile">

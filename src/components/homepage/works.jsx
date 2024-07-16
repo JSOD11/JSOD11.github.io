@@ -10,31 +10,83 @@ const Works = () => {
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Trajectory"
+				title="Experience"
 				body={
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="./ddog.png"
+								alt="Datadog"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Datadog</div>
 							<div className="work-subtitle">
 								Software Engineer
+							</div>
+							<div className="work-duration">2024 - Present</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./seas.png"
+								alt="Harvard"
+								className="work-image"
+							/>
+							<div className="work-title">Research Assistant</div>
+							<div className="work-subtitle">
+								Data systems research assistant
+							</div>
+							<div className="work-duration">2024 - Present</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./harvard.png"
+								alt="Harvard"
+								className="work-image"
+							/>
+							<div className="work-title">Teaching Fellow</div>
+							<div className="work-subtitle">
+								Statistics 110, 111 Teaching Fellow
+							</div>
+							<div className="work-duration">2024 - Present</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./hsa.png"
+								alt="Harvard"
+								className="work-image"
+							/>
+							<div className="work-title">Harvard Student Agencies</div>
+							<div className="work-subtitle">
+								Managing Director, CTO
+							</div>
+							<div className="work-duration">2024 - Present</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./prepared.jpeg"
+								alt="Prepared"
+								className="work-image"
+							/>
+							<div className="work-title">Prepared</div>
+							<div className="work-subtitle">
+								Sales Lead
 							</div>
 							<div className="work-duration">2019 - Present</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="./toppings.jpeg"
+								alt="Toppings"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
+							<div className="work-title">Toppings</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Cofounder
 							</div>
 							<div className="work-duration">2019 - Present</div>
 						</div>

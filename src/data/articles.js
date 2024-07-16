@@ -2,12 +2,39 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "16 July 2024",
+		title: "The Beginning",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Welcome!",
+		style: ``,
 		keywords: [
-			"The Benefits of Cloud Computing",
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		body: (
+			<React.Fragment>
+				<h1>
+					Did this work?
+				</h1>
+				<p>
+					Yes.
+				</p>
+				<h1>
+					Great.
+				</h1>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_2() {
+	return {
+		date: "16 July 2024",
+		title: "A Second Post!",
+		description:
+			"A second post!",
+		keywords: [
 			"Justin",
 			"Justin O",
 			"Justin O'Dwyer",
@@ -27,39 +54,58 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
+					<div className="paragraph">Testing testing.</div>
 				</div>
 			</React.Fragment>
 		),
 	};
 }
 
-function article_2() {
+function article_3() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "16 July 2024",
+		title: "A third post!",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"A third post indeed!",
 		style: ``,
 		keywords: [
-			"Artificial Intelligence in Healthcare",
 			"Justin",
 			"Justin O",
 			"Justin O'Dwyer",
 		],
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<h1>
+					Not very enlightening.
+				</h1>
 			</React.Fragment>
 		),
 	};
 }
 
-const myArticles = [article_1, article_2];
+
+function article_4() {
+	return {
+		date: "16 July 2024",
+		title: "A fourth post!",
+		description:
+			"A fourth post indeed!",
+		style: ``,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		body: (
+			<React.Fragment>
+				<h1>
+					Not very enlightening (again).
+				</h1>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [article_4, article_3, article_2, article_1];
 
 export default myArticles;

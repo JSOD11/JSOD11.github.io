@@ -1,36 +1,25 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by JSOD",
+		title: "Justin O'Dwyer",
 		name: "Justin O'Dwyer",
 		email: "",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/JSOD11",
 	},
 
 	homepage: {
 		title: "Justin O'Dwyer",
 		description:
-			"I build the systems that store your data. I also create (and play) games, play the drums, and enjoy playing (and losing at) chess. I created this site to publicly document the things that I do and write down thoughts rolling around my head before they evaporate. Check out my blog for more!",
-	},
-
-	about: {
-		title: "About me",
-		description:
-			"I am a software engineer at Datadog in New York City. I graduated from Harvard with a 3.97 GPA and concentrated in computer science with a secondary in mathematics and a citation in Spanish. Alongside my bachelor's, I concurrently received a master's degree in computer science by taking enough graduate-level courses during undergrad to complete the master's program. I went to Westwood High School in my suburban hometown of Westwood, MA.",
+			"" // "I build systems. I also create games, play the drums, and enjoy playing chess (somewhat poorly). I created this site to publicly document my experiences, thoughts, and background.",
 	},
 
 	articles: {
 		title: "Blog",
 		description:
-			"Some of my musings",
+			"",
 	},
 
 	projects: [

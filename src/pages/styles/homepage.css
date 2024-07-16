@@ -1,5 +1,9 @@
 @import "../../data/styles.css";
 
+.homepage-buffer {
+	margin-bottom: 10%;
+}
+
 .homepage-logo-container {
 	display: flex;
 	justify-content: left;
@@ -24,11 +28,12 @@
 }
 
 .homepage-title {
-	width: 85% !important;
+	min-width: 340px;
+	width: 85%;
 }
 
 .homepage-subtitle {
-	width: 85% !important;
+	width: 85%;
 }
 
 .homepage-first-area-right-side {

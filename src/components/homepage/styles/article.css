@@ -1,16 +1,28 @@
 @import "../../../data/styles.css";
 
-.homepage-article {
+.homepage-article-outer {
 	width: 90%;
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
 }
 
-.homepage-article:hover {
+.homepage-article-outer:hover {
+	border: 1px #262631 dashed;
 	background: #fafafa;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
+}
+
+.homepage-article-link {
+	text-decoration: none;
+}
+
+.homepage-article {
+	width: 90%;
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
 }
 
 .homepage-article-content {

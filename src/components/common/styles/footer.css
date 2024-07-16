@@ -1,6 +1,7 @@
 @import "../../../data/styles.css";
 
 .footer {
+	margin-top: auto;
 	display: flex;
 	padding-top: 25px;
 	margin-top: 50px;

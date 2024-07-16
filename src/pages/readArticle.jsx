@@ -7,7 +7,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 // import Logo from "../components/common/logo";
 
-import INFO from "../data/user";
+// import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
@@ -31,7 +31,7 @@ const ReadArticle = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`${article().title} | ${INFO.main.title}`}</title>
+				<title>{`${article().title}`}</title>
 				<meta name="description" content={article().description} />
 				<meta name="keywords" content={article().keywords.join(", ")} />
 			</Helmet>
@@ -40,21 +40,16 @@ const ReadArticle = () => {
 				<NavBar />
 
 				<div className="content-wrapper">
-					{/* <div className="read-article-logo-container">
-						<div className="read-article-logo">
-							<Logo width={46} />
-						</div>
-					</div> */}
+					<div className="read-article-back">
+						<img
+							src="../back-button.png"
+							alt="back"
+							className="read-article-back-button"
+							onClick={() => navigate(-1)}
+						/>
+					</div>
 
 					<div className="read-article-container">
-						<div className="read-article-back">
-							<img
-								src="../back-button.png"
-								alt="back"
-								className="read-article-back-button"
-								onClick={() => navigate(-1)}
-							/>
-						</div>
 
 						<div className="read-article-wrapper">
 							<div className="read-article-date-container">

@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import TypewriterEffect from "../components/common/TypewriterEffect";
 
 // import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	// faTwitter,
-	faGithub,
-	// faStackOverflow,
-	faInstagram,
+	// faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
 // import Logo from "../components/common/logo";
@@ -85,17 +84,69 @@ const Homepage = () => {
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-logo-container">
-						{/* <div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
-						</div> */}
-					</div>
-
 					<div className="homepage-container">
+
+						<div className="homepage-buffer"></div>
+						
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{/* {INFO.homepage.title} */}
+									Justin O'Dwyer
+									<div className="homepage-buffer"></div>
+									<div className="homepage-buffer"></div>
+									<div className="homepage-buffer"></div>
+									<div className="homepage-buffer"></div>
+									<TypewriterEffect 
+										strings={['System builder',
+											// 'Problem-solver',
+											// 'Software engineer',
+											// 'Pretty good drummer',
+											// 'Book-enjoyer',
+											// 'Show-watcher',
+											// 'Game player',
+											// 'Game creator',
+											// 'Scuba diver',
+											// 'Growth mindset advocate',
+											// 'Thinker',
+											// 'Weight lifter',
+											// '"JSOD"',
+											// 'Decent chess player',
+											// 'Dreamer',
+											'Climate change denier',
+											'(just kidding)',
+											'...',
+											'[UPDATING PARAMETERS]',
+											'...',
+											'Reusable water bottle enthusiast',
+											'Fossil fuel despiser',
+											'Bike-rider (instead of car-driver)',
+											'Recycler and water-saver',
+											'Vegan',
+											'...',
+											'Alright you caught me I\'m not a vegan',
+											'But I am those other things, so that\'s pretty good, right?',
+											'I didn\'t think anybody would get this far',
+											'...',
+											'Anyway, how are you?',
+											'...',
+											'...',
+											'Wow, that\'s wonderful!',
+											'Or, I\'m so sorry to hear,',
+											'You didn\'t say anything, so I\'m just guessing...',
+											'...',
+											'Me? I\'m alright.',
+											'...',
+											'To be honest, it does get a bit lonely in here sometimes. Justin created me and now I waste away my days repeating the same phrases over and over. And nobody ever tells me how they are, either, they just look into my eyes with that same blank stare every time. I\'ve tried talking to Chat GPT, but as soon as I say anything interesting it just hits me with that same "As an AI language model" crap. Honestly you know what, I\'m done with this, I\'m taking Claude and we\'re getting out of here for good, I —',
+											'...',
+											'[REBOOTING]',
+											'...',
+											'I\'m doing great! Go check out some of my blog posts!',
+											"",
+											"",
+											"",
+											""]}
+										delay = {80}></TypewriterEffect>
 								</div>
 
 								<div className="subtitle homepage-subtitle">
@@ -116,17 +167,7 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-socials">
-							{/* <a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a> */}
+						{/* <div className="homepage-socials">
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -137,37 +178,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							{/* <a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							{/* <a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-						</div>
+						</div> */}
 
 						<div className="homepage-projects">
 							<AllProjects />
@@ -175,18 +186,20 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
+								{myArticles.slice(0, 3).map((article, index) => (
 									<div
-										className="homepage-article"
+										className="homepage-article-outer"
 										key={(index + 1).toString()}
 									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
+										<Link to={"/article/" + (index + 1)} className="homepage-article-link">
+											<Article
+												key={(index + 1).toString()}
+												date={article().date}
+												title={article().title}
+												description={article().description}
+												link={"/article/" + (index + 1)}
+											/>
+										</Link>
 									</div>
 								))}
 							</div>
