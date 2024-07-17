@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { useNavigate } from 'react-router-dom';
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -19,6 +20,11 @@ const Articles = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "articles");
 
+    let navigate = useNavigate();
+	const goToEditor = () => {
+        navigate('/article/write-article');
+    };
+
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -33,11 +39,6 @@ const Articles = () => {
 			<div className="page-content">
 				<NavBar active="articles" />
 				<div className="content-wrapper">
-					{/* <div className="articles-logo-container">
-						<div className="articles-logo">
-							<Logo width={46} />
-						</div>
-					</div> */}
 
 					<div className="articles-main-container">
 						<div className="title articles-title">
@@ -67,6 +68,8 @@ const Articles = () => {
 							</div>
 						</div>
 					</div>
+
+					<button onClick={goToEditor}>.</button>
 					<div className="page-footer">
 						<Footer />
 					</div>
