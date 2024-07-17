@@ -68,8 +68,7 @@ const Articles = () => {
 							</div>
 						</div>
 					</div>
-
-					<button onClick={goToEditor}>.</button>
+					<button onClick={goToEditor}></button>
 					<div className="page-footer">
 						<Footer />
 					</div>
