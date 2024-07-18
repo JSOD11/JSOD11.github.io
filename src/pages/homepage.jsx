@@ -141,7 +141,7 @@ const Homepage = () => {
 											'...',
 											'[REBOOTING]',
 											'...',
-											'I\'m doing great! Go check out some of my blog posts!',
+											'I\'m doing great! Go check out some of my journal!',
 											"",
 											"",
 											"",

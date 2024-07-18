@@ -17,7 +17,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Blog",
+		title: "Journal",
 		description:
 			"",
 	},

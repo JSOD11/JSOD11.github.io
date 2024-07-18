@@ -23,7 +23,7 @@ const NavBar = ({ active }) => {
             <nav className="navbar">
                 <div className="nav-background">
                     <ul className="nav-list">
-                        {['home', 'articles', 'projects', 'about'].map(item => (
+                        {['home', 'journal', 'projects', 'about'].map(item => (
                             <li key={item} className={`nav-item ${active === item ? 'active' : ''}`}>
                                 <Link to={`/${item}`}>{item.charAt(0).toUpperCase() + item.slice(1)}</Link>
                             </li>
