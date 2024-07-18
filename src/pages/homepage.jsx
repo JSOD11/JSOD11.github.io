@@ -91,7 +91,6 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{/* {INFO.homepage.title} */}
 									Justin O'Dwyer
 									<div className="homepage-buffer"></div>
 									<div className="homepage-buffer"></div>
@@ -125,7 +124,7 @@ const Homepage = () => {
 											'Avid recycler and water-saver',
 											'Vegan',
 											'...',
-											'Alright you caught me I\'m not a vegan',
+											'Alright I\'m not a vegan',
 											'But I am those other things, so that\'s pretty good, right?',
 											'I didn\'t think anybody would get this far',
 											'...',

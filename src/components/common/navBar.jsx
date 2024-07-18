@@ -1,68 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
 
-const NavBar = (props) => {
-	const { active } = props;
+const NavBar = ({ active }) => {
+    const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+    const [visible, setVisible] = useState(true);
 
-	return (
-		<React.Fragment>
-			<div className="nav-container">
-				<nav className="navbar">
-					<div className="nav-background">
-						<ul className="nav-list">
-							<li
-								className={
-									active === "home"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/">Home</Link>
-							</li>
-							<li
-								className={
-									active === "articles"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/articles">Blog</Link>
-							</li>
-							<li
-								className={
-									active === "projects"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/projects">Projects</Link>
-							</li>
-							<li
-								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/about">About</Link>
-							</li>
-							{/* <li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/contact">Contact</Link>
-							</li> */}
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</React.Fragment>
-	);
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollPos = window.pageYOffset;
+            setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+            setPrevScrollPos(currentScrollPos);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [prevScrollPos]);
+
+    return (
+        <div className={`nav-container ${visible ? '' : 'nav-hidden'}`}>
+            <nav className="navbar">
+                <div className="nav-background">
+                    <ul className="nav-list">
+                        {['home', 'articles', 'projects', 'about'].map(item => (
+                            <li key={item} className={`nav-item ${active === item ? 'active' : ''}`}>
+                                <Link to={`/${item}`}>{item.charAt(0).toUpperCase() + item.slice(1)}</Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    );
 };
 
 export default NavBar;

@@ -6,7 +6,16 @@ function article_1() {
 		title: "The Beginning",
 		description:
 			"Welcome!",
-		style: ``,
+		style: `
+				.article-container {
+					width: 550px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: black;
+					font-weight: bold;
+				}
+				`,
 		keywords: [
 			"Justin",
 			"Justin O",
@@ -14,15 +23,17 @@ function article_1() {
 		],
 		body: (
 			<React.Fragment>
-				<h1>
-					Did this work?
-				</h1>
-				<p>
-					Yes.
-				</p>
-				<h1>
-					Great.
-				</h1>
+				<div className="article-container">
+					<div className="subtitle">
+						Did this work?
+					</div>
+					<p>
+						every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge every good boy deserves fudge
+					</p>
+					<div className="subtitle">
+						Great.
+					</div>
+				</div>
 			</React.Fragment>
 		),
 	};

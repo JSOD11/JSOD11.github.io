@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
+import { Navigate } from 'react-router-dom';
 
 import Homepage from "./pages/homepage";
 import About from "./pages/about";
@@ -9,7 +10,6 @@ import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
 import WriteArticle from "./pages/writeArticle";
 import Contact from "./pages/contact";
-import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./App.css";
@@ -31,7 +31,7 @@ function App() {
                 <Route path="/article/:slug" element={<ReadArticle />} />
                 <Route path="/article/write-article" element={<WriteArticle />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<Notfound />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
         </div>
     );

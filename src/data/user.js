@@ -51,7 +51,7 @@ const INFO = {
 		{
 			title: "Project Knight",
 			description:
-				"A small 2D combat-focused game demo created purely with C++ and SDL2. As my first game, it was built with no prior knowledge of game development.",
+				"A small 2D combat-focused game demo created purely with C++ and SDL2.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",
 			linkText: "View Project",
 			link: "https://github.com/JSOD11/Project-Knight",
