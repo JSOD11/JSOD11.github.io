@@ -30,6 +30,8 @@ const Footer = () => {
 				<div className="footer-credits">
 					<div className="footer-credits-text">
 						© JSOD 2024
+						<br></br>
+						<Link to="https://github.com/JSOD11/Reactfolio" target="_blank" style={{ textDecoration: 'none' }}>Built with React</Link>
 					</div>
 				</div>
 			</div>

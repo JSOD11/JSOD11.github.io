@@ -2,8 +2,9 @@ import React from "react";
 
 function article_1() {
 	return {
+		id: "1",
 		date: "July 18, 2024",
-		title: "The Beginning",
+		title: "1: The Beginning",
 		description:
 			"Welcome!",
 		style: `
@@ -27,6 +28,9 @@ function article_1() {
 			"Justin O",
 			"Justin O'Dwyer",
 		],
+		tags: [
+			"Misc"
+		],
 		body: (
 			<React.Fragment>
 				<div className="article-container">
@@ -48,8 +52,9 @@ function article_1() {
 
 function article_2() {
 	return {
+		id: "2",
 		date: "July 18, 2024",
-		title: "More About Me",
+		title: "2: More About Me",
 		description:
 			"Information about myself, my parents, and my family background.",
 		style: `
@@ -73,6 +78,9 @@ function article_2() {
 			"Justin O",
 			"Justin O'Dwyer",
 		],
+		tags: [
+			"About"
+		],
 		body: (
 			<React.Fragment>
 				<div className="article-container">
@@ -94,8 +102,9 @@ function article_2() {
 
 function article_3() {
 	return {
+		id: "3",
 		date: "July 18, 2024",
-		title: "Fun Facts",
+		title: "3: Fun Facts",
 		description:
 			"A collection of interesting, odd, unusual, or mildly amusing facts about me.",
 		style: `
@@ -118,6 +127,9 @@ function article_3() {
 			"Justin",
 			"Justin O",
 			"Justin O'Dwyer",
+		],
+		tags: [
+			"About"
 		],
 		body: (
 			<React.Fragment>
@@ -148,10 +160,17 @@ function article_3() {
 	};
 }
 
+// LUCID
+// dict per level or per page, theoretically
+// key compression, DELTA, get more than 2X
+// baselines
+// think about updates, see if we can get closer to 0 overhead
+
 function article_4() {
 	return {
+		id: "4",
 		date: "July 18, 2024",
-		title: "The Beginning",
+		title: "4: XYZ",
 		description:
 			"Welcome!",
 		style: `
@@ -175,6 +194,9 @@ function article_4() {
 			"Justin O",
 			"Justin O'Dwyer",
 		],
+		tags: [
+			"Misc",
+		],
 		body: (
 			<React.Fragment>
 				<div className="article-container">
@@ -194,6 +216,62 @@ function article_4() {
 	};
 }
 
-const myArticles = [article_4, article_3, article_2, article_1];
+function article_5() {
+	return {
+		id: "5",
+		date: "July 18, 2024",
+		title: "5: asdfasfd",
+		description:
+			"Welcome!",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Misc",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							What this is
+						</div>
+						<div className="body-text">
+							I wasn't sure whether to call this part of the site a journal or a blog. Maybe it is a blog, but the term doesn't sit quite sit right with me somehow. I think it's because a blog is meant to be read by others. Surely these entries <i>may</i> be read by others, but this is not particularly the <i>goal</i>.
+							<br></br><br></br>
+							The impetus for this was the great jumble of random thoughts rolling around in the back of my head. Sometimes something interesting will pass through and I'll think to myself "wow, I should really write that down!" but I usually don't. Writing in a google doc lacks a certain kind of finality that I desire. I also do often want to share my thoughts with others, which this medium allows.
+							<br></br><br></br>
+							Thus is born the journal. Let's see what this becomes.
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [
+	article_1,
+	article_2,
+	article_3,
+	article_4,
+	article_5
+];
 
 export default myArticles;

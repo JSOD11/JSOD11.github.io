@@ -41,6 +41,47 @@
 	width: 100%;
 }
 
+.article-tags {
+    display: flex;
+    justify-content: center;
+}
+
+.tag-button {
+    background-color: #fff9f9;
+    color: #333; /* dark grey text */
+    border: 2px solid #ccc; /* grey border */
+    padding: 10px 20px; /* vertical and horizontal padding */
+    margin-right: 15px; /* space between buttons */
+    font-size: 16px; /* text size */
+    cursor: pointer; /* cursor indicates it's clickable */
+    transition: background-color 0.3s, color 0.3s; /* smooth transition for hover effect */
+    border-radius: 10px; /* rounded corners */
+}
+
+.tag-button:last-child {
+    margin-right: 0; /* removes margin from the last button */
+}
+
+.tag-button:hover, .tag-button:focus {
+    background-color: #fafafa; /* blue background on hover/focus */
+    color: var(--primary-color); /* white text on hover/focus */
+    border-color: #0056b3; /* darker blue border on hover/focus */
+    outline: none; /* removes the outline to maintain custom focus styles */
+}
+
+.tag-button:active {
+    background-color: #0056b3; /* even darker blue when clicked */
+    border-color: #004080; /* very dark blue border when clicked */
+}
+
+.tag-button-active {
+    background-color: #4fa4ff; /* blue background for active tag */
+    color: #ffffff; /* white text for better contrast */
+    border-color: #0056b3; /* darker blue border for active tag */
+}
+
+/* Beautiful color #007BFF */
+
 @media (max-width: 1024px) {
 	.articles-title {
 		width: 100% !important;

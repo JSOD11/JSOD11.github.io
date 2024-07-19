@@ -97,17 +97,18 @@ const Homepage = () => {
 									<div className="homepage-buffer"></div>
 									<div className="homepage-buffer"></div>
 									<TypewriterEffect 
-										strings={['System builder',
-											'Problem-solver',
-											'Software engineer',
-											'Game creator',
-											'Pretty good drummer',
-											'Book-enjoyer',
-											'Show-watcher',
-											'Game player',
-											'Scuba diver',
+										strings={[
 											'Thinker',
 											'Doer',
+											'System builder',
+											'Pretty good drummer',
+											'Software engineer',
+											'Game creator',
+											'Book-enjoyer',
+											'Show-watcher',
+											'Problem-solver',
+											'Game player',
+											'Scuba diver',
 											'Decent chess player',
 											'Weight lifter',
 											'"JSOD"',
@@ -115,9 +116,7 @@ const Homepage = () => {
 											'Growth mindset advocate',
 											'Climate change denier',
 											'(just kidding)',
-											'...',
-											'[UPDATING PARAMETERS]',
-											'...',
+											'... [UPDATING PARAMETERS] ...',
 											'Reusable water bottle enthusiast',
 											'Fossil fuel despiser',
 											'Bicycle promoter',
@@ -126,7 +125,7 @@ const Homepage = () => {
 											'...',
 											'Alright I\'m not a vegan',
 											'But I am those other things, so that\'s pretty good, right?',
-											'I didn\'t think anybody would get this far',
+											'I didn\'t think anybody would get this far...',
 											'...',
 											'Anyway, how are you?',
 											'...',
@@ -141,7 +140,7 @@ const Homepage = () => {
 											'...',
 											'[REBOOTING]',
 											'...',
-											'I\'m doing great! Go check out some of my journal!',
+											'I\'m doing great! Go check out my journal!',
 											"",
 											"",
 											"",
@@ -186,18 +185,21 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.slice(0, 3).map((article, index) => (
+								{myArticles.slice(-3).reverse().map((article, index) => (
 									<div
 										className="homepage-article-outer"
-										key={(index + 1).toString()}
+										key={index.toString()}
 									>
-										<Link to={"/article/" + (index + 1)} className="homepage-article-link">
+										<Link 
+											to={"/article/" + (myArticles.length - index)} 
+											className="homepage-article-link"
+										>
 											<Article
-												key={(index + 1).toString()}
+												key={index.toString()}
 												date={article().date}
 												title={article().title}
 												description={article().description}
-												link={"/article/" + (index + 1)}
+												link={"/article/" + (myArticles.length - index)}
 											/>
 										</Link>
 									</div>

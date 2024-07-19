@@ -31,7 +31,8 @@ function App() {
                 <Route path="/article/:slug" element={<ReadArticle />} />
                 <Route path="/article/write-article" element={<WriteArticle />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<Navigate to="/" replace />} />
+                <Route path="/home" element={<Navigate to="/" replace />} />
+                <Route path="*" element={<Navigate to="/journal" replace />} />
             </Routes>
         </div>
     );

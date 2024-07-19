@@ -73,7 +73,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Prepared</div>
 							<div className="work-subtitle">
-								Sales Lead
+								Sales
 							</div>
 							<div className="work-duration">2020 - 2021</div>
 						</div>

@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -24,6 +24,21 @@ const Articles = () => {
 	const goToEditor = () => {
         navigate('/article/write-article');
     };
+
+    const location = useLocation();
+    const searchParams = new URLSearchParams(location.search);
+    const initialTag = searchParams.get('tag') || 'All';
+    const [selectedTag, setSelectedTag] = useState(initialTag);
+
+	useEffect(() => {
+		const params = new URLSearchParams(location.search);
+		params.set('tag', selectedTag);
+		navigate(`${location.pathname}?${params.toString()}`, { replace: true });
+	}, [selectedTag, navigate, location.pathname, location.search]);
+
+    const filteredArticles = myArticles.filter(article => 
+        selectedTag === 'All' || article().tags.includes(selectedTag)
+    );
 
 	return (
 		<React.Fragment>
@@ -49,19 +64,53 @@ const Articles = () => {
 							{INFO.articles.description}
 						</div>
 
+						<div className="article-tags">
+						<button
+							className={`tag-button ${selectedTag === 'All' ? 'tag-button-active' : ''}`}
+							onClick={() => setSelectedTag('All')}
+						>
+							All
+						</button>
+						<button
+							className={`tag-button ${selectedTag === 'Thoughts' ? 'tag-button-active' : ''}`}
+							onClick={() => setSelectedTag('Thoughts')}
+						>
+							Thoughts
+						</button>
+						<button
+							className={`tag-button ${selectedTag === 'Reflections' ? 'tag-button-active' : ''}`}
+							onClick={() => setSelectedTag('Reflections')}
+						>
+							Reflections
+						</button>
+						<button
+							className={`tag-button ${selectedTag === 'About' ? 'tag-button-active' : ''}`}
+							onClick={() => setSelectedTag('About')}
+						>
+							Personal
+						</button>
+						<button
+							className={`tag-button ${selectedTag === 'Misc' ? 'tag-button-active' : ''}`}
+							onClick={() => setSelectedTag('Misc')}
+						>
+							Misc
+						</button>
+					</div>
+
+
 						<div className="articles-container">
 							<div className="articles-wrapper">
-								{myArticles.map((article, index) => (
+								{filteredArticles.reverse().map((article) => (
 									<div
 										className="articles-article"
-										key={(index + 1).toString()}
+										key={article().id}
 									>
 										<Article
-											key={(index + 1).toString()}
+											key={article().id}
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											link={"/article/" + article().id}
 										/>
 									</div>
 								))}

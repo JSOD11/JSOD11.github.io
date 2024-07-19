@@ -48,6 +48,8 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									I am a software engineer at Datadog in New York City. <br></br><br></br> I graduated from Harvard with a 3.97 GPA and concentrated in computer science with a secondary in mathematics and a citation in Spanish. I took enough graduate-level courses during undergrad to also graduate with a master's degree in computer science. I went to Westwood High School in my suburban hometown of Westwood, MA.
 									<br></br><br></br>
+									If you'd like to learn more about me, check out some of my journal entries under the <b>Personal</b> tag.
+									<br></br><br></br>
 								</div>
 							</div>
 
