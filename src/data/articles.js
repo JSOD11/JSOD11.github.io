@@ -79,7 +79,7 @@ function article_2() {
 			"Justin O'Dwyer",
 		],
 		tags: [
-			"About"
+			"Personal"
 		],
 		body: (
 			<React.Fragment>
@@ -90,9 +90,9 @@ function article_2() {
 						<div className="body-text">
 							I grew up in the small suburban town of Westwood, Massachusetts.
 							<br></br><br></br>
-							My mother is the Assistant Headmaster at East Boston High School and immigrated to the United States as a child from Buenos Aires, Argentina. Her parents both grew up in Buenos Aires, and 3 of her grandparents are originally from Spain. Her other grandparent was born in Buenos Aires, but his parents both came to Argentina as Jewish immigrants from an area of Eastern Europe called Bessarabia, which no longer exists. The area is now somewhere in the region of Moldova, Ukraine, and Romania. More information on this side of my family is documented under the journal entry "My Mother's Side."
+							My mother went to Rutgers and is a vice principal at a public high school in East Boston and immigrated to the United States as a child from Buenos Aires, Argentina. Her parents both grew up in Buenos Aires, and 3 of her grandparents are originally from Spain. Her other grandparent was born in Buenos Aires, but his parents both came to Argentina as Jewish immigrants from an area of Eastern Europe called Bessarabia, which no longer exists. The area is now somewhere in the region of Moldova, Ukraine, and Romania. See <a href="/article/4">My Mother's Side</a>.
 							<br></br><br></br>
-							My father is a music teacher at the Otis Elementary school in East Boston. His mother is from London, England, and his father was born in the United States as the son of Eleanor Starbuck, a descendant of the Starbuck whaling family, originally based in Nantucket. Myself, my father, and I all share the middle name Starbuck as an homage. More information on this side of my family is documented under the journal entry "My Father's Side."
+							My father went to Berklee College of Music and is a music teacher at a public elementary school in East Boston. His mother is from London, England, and his father was born in the United States as the son of Eleanor Starbuck, a descendant of the Starbuck whaling family, originally based in Nantucket. Myself, my father, and I all share the middle name Starbuck as an homage. See <a href="/article/5">My Father's Side</a>.
 						</div>
 				</div>
 			</React.Fragment>
@@ -106,7 +106,7 @@ function article_3() {
 		date: "July 18, 2024",
 		title: "3: Fun Facts",
 		description:
-			"A collection of interesting, odd, unusual, or mildly amusing facts about me.",
+			"A collection of interesting, odd, unusual, or mildly amusing facts about my family.",
 		style: `
 				.article-container {
 					width: 700px;
@@ -129,7 +129,7 @@ function article_3() {
 			"Justin O'Dwyer",
 		],
 		tags: [
-			"About"
+			"Personal"
 		],
 		body: (
 			<React.Fragment>
@@ -138,7 +138,7 @@ function article_3() {
 							Fun Facts
 						</div>
 						<div className="body-text">
-							Here are a number of interesting, odd, unusual, or mildly amusing facts about me. I feel like it is time I write these down before I forget or lose track of what is true:
+							Here are a number of interesting, odd, unusual, or mildly amusing facts about my family. I feel like it is time I write these down before I forget or lose track of what is true:
 							<br></br><br></br>
 							<b>1) My great grandmother on my mother's side was a leader on the communist side of the Spanish civil war</b>. She also scored #1 in Spain on a nationwide examination, was friends with the Chilean poet Pablo Neruda, and was sentenced to death by hanging before escaping to Argentina by boat. See the journal entry "My Mother's Side" for more.
 							<br></br><br></br>
@@ -169,10 +169,10 @@ function article_3() {
 function article_4() {
 	return {
 		id: "4",
-		date: "July 18, 2024",
-		title: "4: XYZ",
+		date: "July 23, 2024",
+		title: "4: My Mother's Side",
 		description:
-			"Welcome!",
+			"Stories of Spain and Argentina.",
 		style: `
 				.article-container {
 					width: 700px;
@@ -195,20 +195,30 @@ function article_4() {
 			"Justin O'Dwyer",
 		],
 		tags: [
-			"Misc",
+			"Personal",
 		],
 		body: (
 			<React.Fragment>
 				<div className="article-container">
-						<div className="subtitle">
-							What this is
+						<div className="subtitle" style={ {width: '700px'} }>
+							Spain and Argentina
 						</div>
 						<div className="body-text">
-							I wasn't sure whether to call this part of the site a journal or a blog. Maybe it is a blog, but the term doesn't sit quite sit right with me somehow. I think it's because a blog is meant to be read by others. Surely these entries <i>may</i> be read by others, but this is not particularly the <i>goal</i>.
+							My great-great grandparents on my mother's side were Jews from Bessarabia, which no longer exists but was somewhere near Romania, Moldova, and Ukraine. They left and went to Argentina, where my great grandfather was born.
 							<br></br><br></br>
-							The impetus for this was the great jumble of random thoughts rolling around in the back of my head. Sometimes something interesting will pass through and I'll think to myself "wow, I should really write that down!" but I usually don't. Writing in a google doc lacks a certain kind of finality that I desire. I also do often want to share my thoughts with others, which this medium allows.
+							My great grandfather was a communist, and he was a member of the Argentinian National Brigades, so he went to Spain during the Spanish Civil War to fight against Franco on the communist side.
 							<br></br><br></br>
-							Thus is born the journal. Let's see what this becomes.
+							Meanwhile, my great grandmother, <a href="https://www.eldiario.es/cultura/libros/sorprendente-vida-angustias-garcia-uson-madre-jose-luis-coll-exiliada-argentina-guerra-civil_1_11443658.html" target="_blank" rel="noreferrer">Angustias García Usón</a>, was a writer and teacher in Spain, and mother to my great uncle <a href="https://es.wikipedia.org/wiki/José_Luis_Coll" target="_blank" rel="noreferrer">José Luis Coll</a>, a famous Spanish comedian. She became a leader on the communist side of the rebellion and met my Argentinian great grandfather during the war. When Franco's side won, she was sentenced to execution by hanging for her actions. Her and my great grandfather agreed they would escape to Buenos Aires. My great grandfather and many others fled on boats to Argentina, Chile, and other places, but my great grandmother would have been noticed and captured if she attempted to board a ship. At this moment, she was also pregnant with my grandmother.
+							<br></br><br></br>
+							As a writer in Spain, she had become acquainted with the great Chilean poet <a href="https://en.wikipedia.org/wiki/Pablo_Neruda" target="_blank" rel="noreferrer">Pablo Neruda</a>, who saved her in this moment by getting her a fake passport which she used to escape to France by running over the hills. She was then able to board a ship and flee to Argentina.
+							<br></br><br></br>
+							We know this story because she documented it in a memoir. Her memoir was recently published in Spain under the title <a href="https://www.amazon.es/Años-para-olvidar-Angustias-García/dp/8412543238" target="_blank" rel="noreferrer">Años Para No Olvidar</a>.
+							<br></br><br></br>
+							<a href="https://www.amazon.es/Años-para-olvidar-Angustias-García/dp/8412543238" target="_blank" rel="noreferrer">
+								<img style={ { border: 'solid black 2px', width: '80%' } } src="https://m.media-amazon.com/images/I/51vrYmstqSL.jpg" alt="Años Para No Olvidar"></img>
+							</a>
+							<br></br><br></br>
+							My grandfather was born in Buenos Aires to parents who immigrated from Galicia, Spain. My grandparents met in Buenos Aires, where my mother and uncle were born. My grandfather attended medical school in Buenos Aires and then was selected for a global sales role at Merck, which meant he would be transferred to New Jersey. The family intended to stay in New Jersey for about 2 years before moving permanently back to Spain. 2 years became 3, and 3 became 4, and here we are.
 						</div>
 				</div>
 			</React.Fragment>
@@ -219,10 +229,87 @@ function article_4() {
 function article_5() {
 	return {
 		id: "5",
-		date: "July 18, 2024",
-		title: "5: asdfasfd",
+		date: "July 23, 2024",
+		title: "5: My Father's Side",
 		description:
-			"Welcome!",
+			"Stories of England and the USA.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%;
+					line-height: 1.5;
+					width: 90%;
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Personal",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							Starbuck O'Dwyer
+						</div>
+						<div className="body-text">
+							Many generations ago, my 6th great grandfather, <a href="https://en.wikipedia.org/wiki/Starbuck_(whaling_family)" target="_blank" rel="noreferrer">Joseph Starbuck</a> was the head of the Starbuck whaling family in Nantucket. He and his family for generations would dispatch ships and crews to seek whales in the Atlantic Ocean, harpoon them, cut open their heads, and take the massive quantities of oil residing within. At the time, this oil — especially oil residing in the heads of sperm whales — was worth more in its weight than gold. At this time, there was a growing demand for lighting in the United States and Europe, and the waxy oil found in the head cavities of sperm whales burned clearer and brighter than other oils, in addition to its uses in the creation of soap, candles, and more.
+							<br></br><br></br>
+							The Starbuck family was known for its prominence in the whaling industry, for Obed Starbuck's discovery of <a href="https://en.wikipedia.org/wiki/Starbuck_Island" target="_blank" rel="noreferrer">Starbuck Island</a>, and for the <a href="https://www.loc.gov/resource/hhh.ma0413.photos?st=gallery" target="_blank" rel="noreferrer">Three Bricks</a>, mansions that still stand in Nantucket today, built by Joseph Starbuck for his three sons. My father's father's mother lived in one of these three houses but sold it during the great depression and then spent all that was left of the family's money. Whatever wealth Joseph Starbuck built, sadly for us, is now all gone away.
+
+							<div className="subtitle">
+								"Enough of the yap, what the hell does this have to do with Starbucks Coffee?"
+							</div>
+
+							Patience, dear reader! You see, to understand what the hell this has to do with Starbucks Coffee, we must first understand the complex interplay between the whaling economy in Nantucket and the —
+							
+							<div className="subtitle">
+								"Get on with it or I'm going back to the Fun Facts blog post!"
+							</div>
+
+							Alright, alright. I mean really it's a <a href="/article/1"><i>journal entry</i></a> not a blog post. You see, there really is a semantic difference there. But I digress.
+							<br></br><br></br>
+							You've probably heard of (but probably never read) <a href="https://en.wikipedia.org/wiki/Moby-Dick" target="_blank" rel="noreferrer">Moby Dick</a>. The book is about whalers in the northeast, specifically a fictional 19th century Nantucket whaling ship called the Pequod. Inspired by true events, Melville chose to name the first mate of the Pequod <i>Starbuck</i>.
+							<br></br><br></br>
+							Moby Dick was a favorite book of the founders of Starbucks Coffee, so they chose to name their company after one of the characters. <a href="https://archive.starbucks.com/record/our-name#" target="_blank" rel="noreferrer">They liked the name of the first mate and ran with it</a>.
+							<br></br><br></br>
+							That's why my middle name is Starbuck, why father's family used to have so much wealth and why it's now all dried up, and why some people call me by my initials:
+							<br></br>
+							JSOD.
+
+							<div className="subtitle">
+								My Father's Mother
+							</div>
+							Great to see you announcing the section titles for me again, thanks. My father's mother was born outside London and was a child during WW2. Her name is Judith Potter and, oddly enough, her father's name was Harry. She came to the USA as a nurse where she met my grandfather, the son of Eleanor Starbuck and my only American grandparent.
+							<br></br><br></br>
+							She told me once that, when she was a child, she watched a German plane drop a bomb on her school during the short period of time while she was outside at recess. I think about this. Had very minor things been different in any of these stories, I would not be here. Yet here we are!
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_6() {
+	return {
+		id: "6",
+		date: "July 20, 2024",
+		title: "6: Journal Tags and Organization",
+		description:
+			"How this journal is organized.",
 		style: `
 				.article-container {
 					width: 700px;
@@ -251,14 +338,24 @@ function article_5() {
 			<React.Fragment>
 				<div className="article-container">
 						<div className="subtitle">
-							What this is
+							How This Journal Is Organized
 						</div>
 						<div className="body-text">
-							I wasn't sure whether to call this part of the site a journal or a blog. Maybe it is a blog, but the term doesn't sit quite sit right with me somehow. I think it's because a blog is meant to be read by others. Surely these entries <i>may</i> be read by others, but this is not particularly the <i>goal</i>.
+							For the moment, journal entries can have be tagged as follows:
 							<br></br><br></br>
-							The impetus for this was the great jumble of random thoughts rolling around in the back of my head. Sometimes something interesting will pass through and I'll think to myself "wow, I should really write that down!" but I usually don't. Writing in a google doc lacks a certain kind of finality that I desire. I also do often want to share my thoughts with others, which this medium allows.
+							<b style={ {paddingLeft: '20%', fontSize: '20px'} }>Principles, Thoughts, Reflections, Personal</b>
 							<br></br><br></br>
-							Thus is born the journal. Let's see what this becomes.
+							The <b>Principles</b> tag is for entries that contain bits wisdom or advice I've come across or made up on my own.
+							<br></br><br></br>
+							The <b>Thoughts</b> tag is for entries containing things I've been thinking about. This is pretty broad.
+							<br></br><br></br>
+							The <b>Reflections</b> tag is for entries focusing on forms of media I've consumed and how I feel about them. This could be related to books, games, music, shows, movies, and so on.
+							<br></br><br></br>
+							The <b>Personal</b> tag is for entries related to my family or my personal experiences.
+							<br></br><br></br>
+							The <b>All</b> tag shows all entries, and the <b>Misc</b> tag is for entries that don't fit cleanly into any of the boxes above.
+							<br></br><br></br>
+							Maybe I'll change this at some point, but I think this is a good way to organize my head for now.
 						</div>
 				</div>
 			</React.Fragment>
@@ -266,12 +363,814 @@ function article_5() {
 	};
 }
 
+function article_7() {
+	return {
+		id: "7",
+		date: "July 20, 2024",
+		title: "7: Taming The Beast",
+		description:
+			"On the pitfalls of habit formation.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Principles",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							On Habits
+						</div>
+						<div className="body-text">
+							It seems to me that many people struggle to develop productive habits. All the time people tell me they want to start going to the gym, or practice coding problems, or start reading, or start eating healthy, or start walking in the morning, or start going to sleep early, and so on. For brevity, from here on out we'll refer to this thing as <i>the habit</i>.
+
+							<br></br><br></br>
+							Generally speaking, there are a few ways things can progress after someone tells me this. There are of course more patterns to the ways people form habits than these 4, but I think these 4 are useful in illustrating my point.
+							<br></br><br></br>
+
+							<b>1: The person never does the habit a single time.</b>  In this case, the person never really cared much about the habit, and when they said they wanted to start doing the habit, they were kind of just saying it to say it. There was never any plan to actually do the habit. There was a brief spark of excitement at the mental image of themself as a person who does do the habit, and then this project was delegated to the future self to someday handle. This trap is pretty common, and I'm sure I've been victim to it before.
+
+							<br></br><br></br>
+
+							<b>2: The person immediately starts doing the habit and stays consistent indefinitely.</b> This is what most people think is going to happen after they say "I'm going to start a new habit!" I think it is important to understand that this is really quite rare, for reasons we'll discuss below.
+
+							<br></br><br></br>
+							<b>3: The person begins with the habit at a high frequency, then continues at a lower frequency, then over the course of days or weeks does the habit sporadically or stops entirely.</b> It seems to me that the person who attempts but struggles to create new habits often falls into this pattern.
+
+							<br></br><br></br>
+							<b>4: The person does the habit consistently at a low to moderate frequency, then over the course of days or weeks increases the frequency of the habit with careful planning until it reaches an equilibrium.</b>
+
+							<div className="subtitle">
+								Excitement Is The Enemy
+							</div>
+
+							Depending on the habit, it may be best to leave a person in pattern 1 alone. If they are not really interested in beginning a new habit, or they don't believe the habit matters that much, or they don't believe that it aligns with their Path (see my entry The Path under Principles), then the habit may be best left alone. Indeed, one has limited time and resources, and must choose a finite number of habits. In addition, if someone doesn't believe that strong habits create strong outcomes, and that through continuous effort one can change their fate, then it's probably best to just leave the site entirely, as nothing I write here in any of my entries is applicable (this includes, for example, people who think that some people are naturally smart and some are naturally dumb (without clarifying what those terms mean) and that because of this, there's no use studying too hard, and we should just accept the world the way it comes to us).
+
+							<br></br><br></br>
+
+							With that out of the way, what is it that separates the person who falls into patterns 2 or 4 from the person who falls into patterns 1 or 3? It is my belief that to classify a person falling into patterns 1 or 3 as <i>"lazy"</i> or <i>"weak"</i> or <i>"uninspired"</i> or <i>"distracted"</i> or any of these other terms is not only not accurate, but more importantly this classification uses describing words that are not helpful in understanding the behavior.
+
+							<br></br><br></br>
+
+							<b>In my view, the fundamental reason for a person's inability to form productive habits arises from a poor understanding of one's own mind and body as well as a reliance on excitement rather than careful planning for motivation.</b>
+
+							<br></br><br></br>
+
+							I might write a whole entry on this topic, but it seems to me that we should generally be very wary of the feeling of excitement. Excitement, in my definition, is a pleasurable or energetic sensation aroused by the anticipation of some positive event or thing we desire happening in the future. For example, I might feel the fiery sensation of excitement before I go to eat a meal that I expect to be delicious. Yet this spark, this burning flame of excitement exists only for a brief instant, then disappears. The biological explanation for the force of the spark and its disappearance could be to jolt the body into action to chase the origin of that sensation. As the dinner I anticipate glazes past the back of my eyelids, I spend energy to get closer to the moment when I can enjoy it. <b>The key insight here is that excitement, therefore, generates positive sensations related to something does not exist in the present. Be very wary of indulging in positive sensations about things that are not real.</b>
+
+							<br></br><br></br>
+
+							<b>Furthermore, I believe that there are moments when excitement can be a powerful motivator, but usually this period is brief.</b> For people falling into patterns 1 and 3 of habit formation, I believe that their mentality is to rely on excitement to drive positive behavior. For a person in pattern 1, the excitement they feel in the moment of stating their goal is not strong enough to get them to do the habit even once. For a person in pattern 3, their excitement is strong drives them to do the habit frequently.
+
+							<br></br><br></br>
+
+							Let's say the person in pattern 3 decides they want to start running. They're excited to begin. They just bought new running shoes, which they're excited to put to use. In the first run, their music is blasting, they're feeling a rush of adrenaline, the sun is shining, they're smiling, and it's hard but they're feeling incredible. Life is awesome. They run again the next day and it's again a great run. They run again two days later.
+
+							<br></br><br></br>
+
+							The first week is over and they went on a run 4 days! They're feeling great. Then work gets a little busy, and they were supposed to run on Monday, but they skip it and go on Tuesday. Work's busy again, so they skip another day. They're starting to get tired. They go on a run and it's a little rainy. A little more tired. Only 2 runs this week. Now they're feeling a bit bad. 0 runs to 4 was great, but 4 to 2 kind of sucks. Whatever. The next week a big deal came through at work and it occupied all their mental energy so they only ran once. Running is hard, and it's raining out again, and they're not excited about it anymore, so they don't go. The spark is gone, and life isn't so awesome.
+
+							
+							<div className="subtitle">
+								Excitement Is A Firecracker
+							</div>
+
+							I've seen this story countless times, and the core issue every time is that the person generally does not understand themself and creates a poor plan or no plan at all, instead relying on excitement or other external factors to drive their behavior. <b>In my experience, excitement is a firecracker. It leads to intense efforts at sporadic intervals over short time horizons; Habits require focused efforts at regular intervals over long time horizons.</b> To form a productive habit, we thus cannot and should not rely on feelings of excitement for motivation. 
+
+							<br></br><br></br>
+							There are two parts of the mind: The rational part (the brain) and the animal part (the body). <b>We must choose only a small number of habits that relate to our Path and only then, with the rational mind, carefully design a plan that will <i>force</i> the body to act in a productive way.</b> We cannot let the body act productively only when it is excited. Thus, we design a plan such that the body will act in the way that the brain wants it to, even in those moments when we are not feeling excited, even when it rains, even when it sucks.
+
+							<br></br><br></br>
+							I believe that there is no such relationship as the brain guiding the body or the body guiding the brain. The brain exists with the body as its vessel. The brain gives the body suggestions, while the body acts on its own (see <a href="/article/8">Mind, Body, Spandrels, and Sensation</a>). For example, I used to have an issue where I would wake up and sit in bed scrolling on Instagram for a long while if I didn't have anything immediately planned. My brain wanted this to stop, but each morning when I woke up, I'd still lie there. The body would pick up the phone and scroll on Instagram.
+
+							<br></br><br></br>
+							Instead of chalking this up to laziness or lack of mental fortitude, I believe the better view is to observe an instance of discord between the mind and the body, with the body flooding the brain with sensations that ensure my limbs will not move to lift me up. Framing the problem in this way, a wrestling match between the mind and body is now a puzzle: In moments when the body is strong and the mind is weak, how can the mind win? To combat this, I created a note that I keep open on my phone, with one task being "Get out of bed within 5 minutes of waking up" and one task being "Leave this note open upon going to sleep." Then, when the body opens the phone at 8am, there's a checkbox staring me in the face telling me to not think about anything else, just stand up before 8:05, check that box, then see how I feel. And then once I've stood up (and with a good night's sleep, too), the body's power over the brain fades.
+							
+							<div className="subtitle">
+								Easing Into Habits
+							</div>
+						
+							A new habit constitutes a new environment to which the mind is subjecting the body on a repeated basis. Especially if this habit involves some level of strain on the body, it is essential to recognize that the body is likely to fight back or reject the activity.
+
+							<br></br><br></br>
+							For example, if I were to sit around not exercising for a week and then get up and try to run 5 miles as fast as I could, I can say with pretty high certainty that I'd get a migraine afterwards. This is my body's way of saying "What the f*** dude?" It is essential to recognize the difference between the mind and body (as discussed in <a href="/article/8">Mind, Body, Spandrels, and Sensation</a>) when it comes to habit formation.
+						
+							<br></br><br></br>
+							Indeed, what is a habit? It is a repeated action undertaken with the intention of stimulating desirable change or adaptation within the body. To achieve consistency in a habit, it cannot be the mind alone that believes in the value; The body must be gradually accustomed to and accepting of the action, or it will fight back. <b>With careful planning and experimentation, one must gradually introduce the habit in a way that is sustainable, motivated by internal factors rather than external, and does not cause the body to reject the habit.</b> If one can manage to slowly build the habit for 6+ months, with a focus on consistency, then it will likely stick around. This is why a person who adopts a habit under pattern 2 is exceedingly rare — to adopt a new habit so quickly without burning out (the body rejecting the new environment) suggests a very deep attunement to one's body.
+							
+							<br></br><br></br>
+							Such a person has mastered the art of taming the wild animal in which they reside.
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_8() {
+	return {
+		id: "8",
+		date: "July 20, 2024",
+		title: "8: Mind, Body, Spandrels, and Sensation",
+		description:
+			"Thoughts on the relationship between the mind and the body.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Thoughts",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						{/* <div className="subtitle">
+							The Mind as a Spandrel
+						</div> */}
+						<div className="body-text">
+							<br></br><br></br>
+							<b>I see the human mind as a <a href="https://en.wikipedia.org/wiki/Spandrel_%28biology%29" target="_blank" rel="noreferrer">spandrel</a> — an accidental byproduct of evolution.</b>
+
+							<div style={ { paddingTop: '10%', paddingBottom: '10%', justifyContent: 'center', paddingLeft: '10%' } }>
+								<a href="https://en.wikipedia.org/wiki/Spandrel_%28biology%29" target="_blank" rel="noreferrer">
+									<img style={ { border: 'solid black 2px' } } src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Spandrel_%28PSF%29.png/440px-Spandrel_%28PSF%29.png" alt="Spandrel"></img>
+								</a>
+							</div>
+
+							There were strong selective forces pushing for greater brainpower in Australopiths, Homo erectus, and early hominins. By a million years ago or so, when our ancestors were on the brink of discovering fire, it was already clear that individuals had an advantage who were better at socializing, communicating, developing hunting plans, getting along with others, spatial reasoning, and other such tasks. So, by the time Homo sapiens came around, our brains had blown up in strength.
+
+							<br></br><br></br>
+
+							This inflation led us to be better at the things mentioned, but it seems that the sheer complexity of the brain also brought other abilities, skills, and tendencies. If we imagine the height of a tent as the brain's ability, then the peaks of the posts holding up the tent would be the abilities most favored by evolution. In this analogy, it is clear that many other intermediate regions between the posts also rose as a byproduct of evolution.
+						
+							<div className="subtitle">
+								Mind and Body
+							</div>
+							It is my view that the conscious mind, therefore, was born "by accident" — it is an emergent property arising mysteriously from the physical components of the human brain, and we have barely scratched the surface when it comes to understanding this emergence. And I believe that due to its unique properties, the mind is best dealt with as a separate entity from the physical body. The body is a collection of skin, bones, organs, muscle, but most importantly to us (or at least to me) it is a vessel for the brain, and thus the mind.
+
+							<br></br><br></br>
+
+							If you take my view — that the conscious mind emerged as a byproduct of evolution, rather than as a direct result of it — then it would seem that any relationship between the mind and any other parts of the organism would also have arisen by accident, and would be unpredictable. While many suggest or believe that the conscious mind is the ruler of the body, I reject this notion. <b>Instead, I argue that there is no such relationship as the brain guiding the body or the body guiding the brain. The mind, being the conscious rational part of the brain, suggests a course of action to the body, and then the body proceeds to act on its own.</b>
+
+							<br></br><br></br>
+
+							In other words, it is my view that my mind, and your mind, and everybody else's mind, exists completely isolated, completely an accident, and completely at the whim of a wild animal.
+							
+							<div className="subtitle">
+								Sensation
+							</div>
+
+							I do not believe in emotion in the traditional sense. I argue instead that the best descriptor for our experience is one of sensation (see my entry Sensation under Thoughts). The mind exists in the void. The way the mind makes sense of the world is through the sensations it receives as inputs from the body. All it has to work with is our ability to taste, touch, smell, see, or hear, and the sensation that is created from our body's sensors dedicated to perceiving information of the given form (we have ears to hear, eyes to see, and so on).
+						
+							<br></br><br></br>
+
+							The range of sensation we can feel is infinitely large. We can feel pleasurable sensations, painful sensations, warm or cold sensations. So, my belief is that emotion is not a fundamental part of the human experience — sensation is. Because all languages are fundamentally limited in the amount of meaning they can express, we use emotions to approximate sensations and as a tool for communication. When I tell someone "I'm feeling excited" I am communicating that I am within a certain broad class of sensations, and they understand.
+						
+							<br></br><br></br>
+							These sensations are bodily experiences communicated to the mind. In this way, they are completely external to the mind, and can even be considered the body's way of speaking to the mind. For example, if the body is in pain and needs attention, this is communicated to the mind and the brain quite clearly by way of sensation. The body chooses to make it impossible for the brain or mind to focus on anything else by sending painful shockwaves to the brain.
+						
+							<div className="subtitle">
+								Mind-Body Harmony
+							</div>
+
+							Following this logic leads us to a world where the conscious mind exists trapped in darkness inside the skull, the body was shaped by evolution, and the two must work together. All of this is to say: When you observe the body as external to the self, as another being entirely, as the vector for the transfer of all sensation the mind will ever experience, you may act differently. When the body misbehaves, or when the body overpowers the brain, we understand that — even if it cannot think — the body has just as much power over us as we have over it. The body can listen to the mind, but if it so chooses, it can also hijack the mind and take control.
+						
+							<br></br><br></br>
+							We experience strong sensations such as the desire to eat an entire carton of ice cream, or to skip our workout, or to sleep in, or to satiate the sexual urge. In my philosophy, we view this sensation as the body telling the mind what it wants. Sometimes it is great to do what the body wants, and sometimes the body wants something that is not good for it. Instead of viewing this as an internal struggle between things that "I" want and things that "I" do not want, we remember that the mind does not experience wanting. The mind exists alone in the mix of neurons in the braincase; It is the body that sends these signals in the form of sensation.
+						
+							<br></br><br></br>
+							A mind that disrespects the body may lead to a body that disrespects the mind. Furthermore, an understanding of one's own body includes an understanding of the situations in which the body often hijacks the mind. Someone who understands and listens to their body well knows how to respond to its messages and avoid situations in which they are susceptible to a hijacking.
+						
+							<br></br><br></br>
+							Listen to the body when it speaks. Hear its message, and try to understand why it is sending this message. Sometimes the body will attempt to hijack the mind, and sometimes it's great to let it — there is nothing wrong with enjoying positive sensations. Other times, the body is misguided, and we must take the reigns. But do not become angry with the body, be nice to it, be understanding of it. For indeed, like everything else in this world, it has no thoughts, only impulses.
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_9() {
+	return {
+		id: "9",
+		date: "July 22, 2024",
+		title: "9: Correlation and Causation",
+		description:
+			"A reminder to look out for confounders.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Principles",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						{/* <div className="subtitle">
+							How This Journal Is Organized
+						</div> */}
+						<div className="body-text">
+							If you're on this page, you're probably already familiar with the idea. But mistakes related to this are so pervasive I feel it is necessary to include this as one of my principles.
+							<br></br><br></br>
+							<b style={ {paddingLeft: '20%', fontSize: '20px'} }>Fresh air breaks and lung cancer</b>
+							<br></br><br></br>
+							I conduct a very famous (hypothetical) study, in which I poll a large number of people with lung cancer and without lung cancer and ask them how often they took fresh air breaks at work. I collect the data, I create a scatterplot. The results are astounding: People who took less fresh air breaks are less likely to have lung cancer, and people who took more fresh air breaks are more likely to have lung cancer. Oh my god, fresh air causes lung cancer! This is incredible! Everybody, I beg you, DO NOT go outside!
+							<br></br><br></br>
+							Because this conclusion is clearly absurd, it's easy to see the mistake. Hiding in plain sight is a third variable, a <i>confounding factor</i>, which <i>truly <b>caused</b> individuals to take fresh air breaks <b>and</b> get lung cancer.</i> Namely, smoking cigarettes.
+							<br></br><br></br>
+							So, the point is clear: Whenever you see a scatterplot of X and Y, and somebody telling you that X <b>causes</b> Y or that Y <b>causes</b> X, immediately be skeptical of what they are saying. In most cases I've come across, there is some Z which, when increased, also increases X and Y.
+							<br></br><br></br>
+							Causality in the form of X causes Y <b>cannot be proven</b> from historical data. <i>To prove causality we must conduct a controlled study: We must show that the experimental group, under treatment, shows change, while the control group is unchanged.</i>
+							<br></br><br></br>
+							It is easy to see the error when we talk about fresh air breaks and smoking. But when the story you're being told is believable, or is a story that makes you feel good, it's easier to fall into the trap of drawing causal conclusions from historical data. I've seen this mistake made in major news websites and even in academic research papers.
+							<br></br><br></br>
+							Stay vigilant, be wary of made-up stories, and always ask: Is this nice story true that Y really rises with X, or do X and Y both just rise with some Z we're not thinking about?
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_10() {
+	return {
+		id: "10",
+		date: "July 22, 2024",
+		title: "10: The Hitchhiker's Guide to the Galaxy, by Douglas Adams",
+		description:
+			"A reflection on The Hitchhiker's Guide to the Galaxy, by Douglas Adams.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Reflections",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							<i>Like all of my Reflections, this entry will be filled with spoilers.</i>
+						</div>
+						<div className="subtitle">
+							Hilarity and Absurdity
+						</div>
+						<div className="body-text">
+							I had fun reading this book, which is basically a window into Adams' brain, which is seemingly a very unique place. Adams also has a marvelous way with words.
+							<br></br><br></br>
+							<i>"<b></b>Whatever it was raced across the sky in its monstrous yellowness, tore the sky apart with mind-boggling noise and leaped off into the distance leaving the gaping air to shut behind it with a </i>bang<i> that drove your ears six feet into your skull." (24)</i>
+							<br></br><br></br>
+							I think that might be one of the most beautiful sentences I've ever read. A sound, tearing the sky apart. This is poetry.
+							<br></br><br></br>
+							<i>"All around the world city streets exploded with people, cars skidded into each other as the noise fell on them and then rolled off like tidal waves over hills and valleys, deserts and oceans, seeming to flatten everything it hit." (24)</i>
+							<br></br><br></br>
+							<i>"'O Deep Thought computer,' he said, 'the task we have designed you to perform is this. We want you to tell us...' he paused, 'the Answer!' <br></br> 'The Answer?' said Deep Thought. 'The Answer to What?' <br></br> 'Life!' urged Fook. <br></br> 'The Universe!' said Lunkwill. <br></br> 'Everything!' they said in chorus. <br></br> Deep Thought paused for a moment's reflection. <br></br> 'Tricky,' he said finally. <br></br> 'But you can do it?' <br></br> Again, a significant pause. <br></br> 'Yes,' said Deep Thought, 'I can do it.'" (113)</i>
+							<br></br><br></br>
+							<i>"'But the program will take me a little while to run.' <br></br> 'How long?' he said. <br></br> 'Seven and a half million years.' <br></br> Lunkwill and Fook blinked at each other." (115)</i>
+							<br></br><br></br>
+							<i>"'All right,' said Deep Thought. 'The Answer to the Great Question...' <br></br> 'Yes...!'<br></br>'Of Life, the Universe and Everything...' said Deep Thought.<br></br>'Yes...!'<br></br>'Is...' said Deep Thought, and paused.<br></br>'Yes...!'<br></br>'Is...'<br></br>'Yes...!!!...'<br></br>'Forty-two,' said Deep Thought, with infinite majesty and calm." (120)</i>
+							<br></br><br></br>
+							What is this book about? Honestly I don't think Adams himself would have a great answer for you. I'm pretty sure it is just his stream of consciousness — everything takes you off guard, because it's taking him off guard. He even says this himself in the introduction.
+							<br></br><br></br>
+							In a way, this is the book's greatest strength, because it has complete freedom to change direction at any moment. In another way, it leaves me feeling unsatisfied. I kept waiting for the moment when the meaning of it all would bubble to the surface, and it never did. Each individual moment is funny, creative, beautiful, but the lack of direction left me with a slight feeling of emptiness. There was great breadth, but no depth.
+							<br></br><br></br>
+							Thus, instead of wishing it were something else, we should accept it for what it is. The insight or meaning comes not from the story as a whole, but from the individual moments of brilliance, from the blips of a kind of creativity I have never seen.
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_11() {
+	return {
+		id: "11",
+		date: "July 22, 2024",
+		title: "11: On Art",
+		description:
+			"My view on art and what constitutes good art — and bad art.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Thoughts",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							The Isolated Mind
+						</div>
+						<div className="body-text">
+							As I have discussed in other posts (see <a href="/article/8">Mind, Body, Spandrels, and Sensation</a>), my view is that the mind is synonymous with the self and the body and its sensations are best considered as external to the mind. If I feel joyful, this is my way of expressing in the English language a certain kind of positive sensation that others can relate to. If I feel distressed, this is my way of, in the English language, describing a certain kind of bodily sensation I am feeling, that others can imagine.
+							<br></br><br></br>
+							The reason for these describing words, and for our insistence on the term "emotion" rather than "sensation," is in my opinion because it is impossible for any of us to ever experience the world from someone else's body, and the range of possible sensations is infinite, so we use emotion words to put broad classes of sensations into boxes. Otherwise, we'd really have no way to communicate about how our bodies feel.
+							<br></br><br></br>
+							My belief is that language is inherently limited in the kinds of sensations it can communicate and evoke. I imagine certain sensations — maybe that of intense melancholy, of despair, of freedom, or righteousness — that words maybe cannot do justice. For the communication of such sensations, I believe that we invented <i>art</i>.
+							<div className="subtitle">
+								Art Tells A Story
+							</div>
+							<a href="https://en.wikipedia.org/wiki/Guernica_(Picasso)" target="_blank" rel="noreferrer">
+								<img style={ { border: 'solid black 2px', maxWidth: '100%' } } src="https://www.singulart.com/blog/wp-content/uploads/2023/07/image.png" alt="Guernica"></img>
+							</a>
+
+							Take a look at <a href="https://en.wikipedia.org/wiki/Guernica_(Picasso)" target="_blank" rel="noreferrer"><i>Guernica</i></a> by Picasso. I do not believe that there are any words that can quite capture the way I feel looking at something like this (especially in person — the piece is huge). This is why if Picasso wants to make someone else feel this way, the way that he himself felt but could not express in words, he must communicate in this format.
+							<br></br><br></br>
+							When we take this view, we realize that art, therefore, must include all forms of communication outside of language. This is why musicians are commonly known as artists. I believe that movie directors are artists, and so are writers. Game creators are certainly artists. So are candle makers, and architects, and chefs. If someone is creating a custom experience meant to invoke feeling or sensation in others, they are, by my definition, an artist.
+							<div className="subtitle">
+								Good Art
+							</div>
+							<b>Good art is personal.</b> The communication of raw human sensation is at the core of every art form, and this sensation originates in the experience of the artist. Therefore, <b>good art is almost always the vision of a single person</b>. This person's vision can be executed by a team, but the core essence has originated in the mind of a single person.
+							<br></br><br></br>
+							I once heard Rick Rubin describe good art as a diary entry. It is the raw, imperfect, flawed, unaltered vision of a single person. In this way, the feeling one is attempting to communicate is there in the flesh. There is no such thing as giving a person's diary entry a score out of ten, or saying that it was good or bad. It is merely a person's diary entry, a sensation that they felt, and that they poured from their mind into an external vessel. This is not something that is scored, it is something that is observed and contemplated, and considered, and mulled over, and considered again. This is art.
+							<br></br><br></br>
+							Again borrowing some ideas from Rubin, bad art is created with the goal of making something that the artist <i>thinks other people want</i>. Bad art looks outward, not inward. For examples of this, look at any high budget shitty movie or pop single that recently came out. These works were created not to express an artist's vision but by men in suits looking at other movies or pop singles that succeeded and trying to recreate them. There was no artist with a sensational vision — there was a large group of people, all with weak visions, and as each contributed more of their ideas, any sensation that did exist was diluted into a boring and unemotional blob.
+							<br></br><br></br>
+							Good art is personal. Good art is the vision of, generally, a single person. And like Picasso's <i>Guernica</i>, Tolkein's <i>The Lord of the Rings</i>, Miyazaki's <i>Dark Souls</i>, Liszt's <i>Liebesträume</i>, Miura's <i>Berserk</i>, Hesse's <i>Siddhartha</i>, Beethoven's <i>Moonlight Sonata</i>, Aonuma and Koizumi's <i>Majora's Mask</i>, van Gogh's <i>Starry Night</i>, and Lucas' <i>Star Wars</i>, good art makes us feel in a way that nothing else can; It pinpoints a sensation that we struggle to express; It links our minds.
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+
+function article_12() {
+	return {
+		id: "12",
+		date: "July 22, 2024",
+		title: "12: On AI in Creative Disciplines",
+		description:
+			"An optimistic take on the creative uses of AI.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Thoughts",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							The artificial artist?
+						</div>
+						<div className="body-text">
+							I have seen a growing concern among artists 
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_13() {
+	return {
+		id: "13",
+		date: "July 22, 2024",
+		title: "13: The Artistic Dilemma",
+		description:
+			"My view on what I believe to be a core dilemma every artist must face when creating a work.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Thoughts",
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							The Fundamental Tradeoff
+						</div>
+						<div className="body-text">
+
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_14() {
+	return {
+		id: "14",
+		date: "July 23, 2024",
+		title: "14: A Good Brainteaser",
+		description:
+			"Can you solve it?",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%;
+					width: 90%;
+					line-height: 1.5;
+					margin: auto;
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				.answer {
+					display: none;
+					margin-top: 20px;
+				}
+				.show-answer-button {
+					margin-top: 20px;
+					padding: 10px 15px;
+					font-size: 16px;
+					cursor: pointer;
+					background-color: #007BFF;
+					color: white;
+					border: none;
+					border-radius: 5px;
+				}
+				.show-answer-button:hover {
+					background-color: #0056b3;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Misc"
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							<i>You walk one mile north, then one mile east, then one mile south. You end up right where you started. Where did you start?</i>
+						</div>
+						<div className="body-text">
+							<button className="show-answer-button" onClick={() => document.getElementById('answer').style.display = 'block'}>
+								Show Answer
+							</button>
+							<div id="answer" className="answer">
+								<div className="subtitle">
+									The South Pole!
+									<br></br><br></br>
+									<i>Now that that's out of the way, we arrive at the real puzzle: <b>There is actually more than one valid starting point.</b>
+									<br></br><br></br>
+									Can you find the other answer? (Hint: It's not the North Pole — you cannot walk a mile north if every direction around you is south!)</i>
+									<br></br><br></br>
+								</div>
+								<button className="show-answer-button" onClick={() => document.getElementById('answer2').style.display = 'block'}>
+									Show Answer
+								</button>
+								<div id="answer2" className="answer">
+									<b>Near the North Pole, there is a latitude at which the circumference of the Earth is one mile. If you start anywhere on the ring of points one mile south of this band, you would walk one mile north, one mile east (all the way around the Earth), one mile south, and end up where you started. (Notably, there is no such position near the South Pole. This is because a circle centered at the South Pole with circumference 1 would have a radius of 1/2pi &lt; 1, so there would be no way to start 1 mile south of the ring.) </b>
+									<br></br><br></br>
+									<div className="subtitle">
+										<i>There is actually a whole class of further answers. Can you find it?</i>
+									</div>
+									<button className="show-answer-button" onClick={() => document.getElementById('answer3').style.display = 'block'}>
+										Show Answer
+									</button>
+									<div id="answer3" className="answer">
+										<b>Return to the ring near the North Pole of circumference 1 mile from before. Notice that there is also a ring with circumference 0.5 miles which, if walked around twice, would bring you back to the same point as you started. There is also a ring with circumference 1/3 miles, and 1/4 miles, and so on. Starting a mile south of any of these would work! </b>
+										<br></br><br></br>
+										I like this one. It might be fun to make a whole journal section filled with brainteasers.
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_15() {
+	return {
+		id: "15",
+		date: "July 23, 2024",
+		title: "15: The Paradox of Small Efforts and Big Results",
+		description:
+			"The way we spend all our moments combined determines the trajectory of our life, yet each moment in isolation is insignificant.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Principles"
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							Fun Facts
+						</div>
+						<div className="body-text">
+							Here are a number of interesting, odd, unusual, or mildly amusing facts about my family. I feel like it is time I write these down before I forget or lose track of what is true:
+							<br></br><br></br>
+							<b>1) My great grandmother on my mother's side was a leader on the communist side of the Spanish civil war</b>. She also scored #1 in Spain on a nationwide examination, was friends with the Chilean poet Pablo Neruda, and was sentenced to death by hanging before escaping to Argentina by boat. See the journal entry "My Mother's Side" for more.
+							<br></br><br></br>
+							<b>2) My middle name is Starbuck.</b> On my father's side, my sixth great grandfather was the Nantucket whaler Joseph Starbuck. The book Moby Dick was written about whalers in this area and included a character named Starbuck as a reference to members of the Starbuck family in Nantucket. The founder of Starbucks Coffee chose to name the company after that character from Moby Dick, which was his favorite book, and the company logo is a siren because the founders liked the image while looking through old marine books. See the journal entry "My Father's Side" for more.
+							<br></br><br></br>
+							<b>3) My great grandfather on my father's side was named Harry Potter.</b> His full name was Harold Radford Potter, and he went by Harry. He lived in England.
+							<br></br><br></br>
+							<b>4) The "Mayhem Like Me" guy in the Allstate commercials is my second cousin (through marriage).</b> His name is Dean Winters.
+							<br></br><br></br>
+							<b>5) My great uncle on my mother's side was the famous Spanish comedian José Luis Coll.</b>
+							<br></br><br></br>
+							<b>6) My grandfather on my mother's side traveled frequently for his work and decorated his house with over a thousand small owl figurines collected from across the globe.</b> Side note: I now need to find somewhere to put over a thousand small owl figurines.
+							<br></br><br></br>
+							<b>7) My third cousin, Sean O'Dwyer, was the recording engineer for the Blink-182 album <i>Enema of the State</i> featuring the hit "All The Small Things."</b> 
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_16() {
+	return {
+		id: "16",
+		date: "July 23, 2024",
+		title: "16: Siddhartha, by Hermann Hesse",
+		description:
+			"The river flows.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Reflections"
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							Fun Facts
+						</div>
+						<div className="body-text">
+							Here are a number of interesting, odd, unusual, or mildly amusing facts about my family. I feel like it is time I write these down before I forget or lose track of what is true:
+							<br></br><br></br>
+							<b>1) My great grandmother on my mother's side was a leader on the communist side of the Spanish civil war</b>. She also scored #1 in Spain on a nationwide examination, was friends with the Chilean poet Pablo Neruda, and was sentenced to death by hanging before escaping to Argentina by boat. See the journal entry "My Mother's Side" for more.
+							<br></br><br></br>
+							<b>2) My middle name is Starbuck.</b> On my father's side, my sixth great grandfather was the Nantucket whaler Joseph Starbuck. The book Moby Dick was written about whalers in this area and included a character named Starbuck as a reference to members of the Starbuck family in Nantucket. The founder of Starbucks Coffee chose to name the company after that character from Moby Dick, which was his favorite book, and the company logo is a siren because the founders liked the image while looking through old marine books. See the journal entry "My Father's Side" for more.
+							<br></br><br></br>
+							<b>3) My great grandfather on my father's side was named Harry Potter.</b> His full name was Harold Radford Potter, and he went by Harry. He lived in England.
+							<br></br><br></br>
+							<b>4) The "Mayhem Like Me" guy in the Allstate commercials is my second cousin (through marriage).</b> His name is Dean Winters.
+							<br></br><br></br>
+							<b>5) My great uncle on my mother's side was the famous Spanish comedian José Luis Coll.</b>
+							<br></br><br></br>
+							<b>6) My grandfather on my mother's side traveled frequently for his work and decorated his house with over a thousand small owl figurines collected from across the globe.</b> Side note: I now need to find somewhere to put over a thousand small owl figurines.
+							<br></br><br></br>
+							<b>7) My third cousin, Sean O'Dwyer, was the recording engineer for the Blink-182 album <i>Enema of the State</i> featuring the hit "All The Small Things."</b> 
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_17() {
+	return {
+		id: "17",
+		date: "July 23, 2024",
+		title: "17: Man's Search For Meaning, by Viktor Frankl",
+		description:
+			"A discussion of logotherapy.",
+		style: `
+				.article-container {
+					width: 700px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Reflections"
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							Fun Facts
+						</div>
+						<div className="body-text">
+							Here are a number of interesting, odd, unusual, or mildly amusing facts about my family. I feel like it is time I write these down before I forget or lose track of what is true:
+							<br></br><br></br>
+							<b>1) My great grandmother on my mother's side was a leader on the communist side of the Spanish civil war</b>. She also scored #1 in Spain on a nationwide examination, was friends with the Chilean poet Pablo Neruda, and was sentenced to death by hanging before escaping to Argentina by boat. See the journal entry "My Mother's Side" for more.
+							<br></br><br></br>
+							<b>2) My middle name is Starbuck.</b> On my father's side, my sixth great grandfather was the Nantucket whaler Joseph Starbuck. The book Moby Dick was written about whalers in this area and included a character named Starbuck as a reference to members of the Starbuck family in Nantucket. The founder of Starbucks Coffee chose to name the company after that character from Moby Dick, which was his favorite book, and the company logo is a siren because the founders liked the image while looking through old marine books. See the journal entry "My Father's Side" for more.
+							<br></br><br></br>
+							<b>3) My great grandfather on my father's side was named Harry Potter.</b> His full name was Harold Radford Potter, and he went by Harry. He lived in England.
+							<br></br><br></br>
+							<b>4) The "Mayhem Like Me" guy in the Allstate commercials is my second cousin (through marriage).</b> His name is Dean Winters.
+							<br></br><br></br>
+							<b>5) My great uncle on my mother's side was the famous Spanish comedian José Luis Coll.</b>
+							<br></br><br></br>
+							<b>6) My grandfather on my mother's side traveled frequently for his work and decorated his house with over a thousand small owl figurines collected from across the globe.</b> Side note: I now need to find somewhere to put over a thousand small owl figurines.
+							<br></br><br></br>
+							<b>7) My third cousin, Sean O'Dwyer, was the recording engineer for the Blink-182 album <i>Enema of the State</i> featuring the hit "All The Small Things."</b> 
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+
 const myArticles = [
 	article_1,
 	article_2,
 	article_3,
 	article_4,
-	article_5
+	article_5,
+	article_6,
+	article_7,
+	article_8,
+	article_9,
+	article_10,
+	article_11,
+	article_12,
+	article_13,
+	article_14,
+	article_15,
+	article_16,
+	article_17
 ];
 
 export default myArticles;

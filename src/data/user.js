@@ -41,7 +41,7 @@ const INFO = {
 		},
 
 		{
-			title: "Novel compression techniques in Log-Structured Merge-Trees",
+			title: "Novel techniques in Log-Structured Merge-Trees",
 			description:
 				"Improving put, delete, and range query performance of LSM trees under specific workloads by decreasing data movement. An ongoing research project in Harvard's DASLab.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",

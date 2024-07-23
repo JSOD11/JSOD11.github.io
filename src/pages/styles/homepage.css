@@ -84,7 +84,7 @@
 }
 
 .homepage-articles {
-	flex-basis: 900px;
+	flex-basis: 60%;
 	padding-top: 30px;
 	margin-left: -30px;
 }

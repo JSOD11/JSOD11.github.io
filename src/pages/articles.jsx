@@ -72,6 +72,12 @@ const Articles = () => {
 							All
 						</button>
 						<button
+							className={`tag-button ${selectedTag === 'Principles' ? 'tag-button-active' : ''}`}
+							onClick={() => setSelectedTag('Principles')}
+						>
+							Principles
+						</button>
+						<button
 							className={`tag-button ${selectedTag === 'Thoughts' ? 'tag-button-active' : ''}`}
 							onClick={() => setSelectedTag('Thoughts')}
 						>
@@ -84,8 +90,8 @@ const Articles = () => {
 							Reflections
 						</button>
 						<button
-							className={`tag-button ${selectedTag === 'About' ? 'tag-button-active' : ''}`}
-							onClick={() => setSelectedTag('About')}
+							className={`tag-button ${selectedTag === 'Personal' ? 'tag-button-active' : ''}`}
+							onClick={() => setSelectedTag('Personal')}
 						>
 							Personal
 						</button>

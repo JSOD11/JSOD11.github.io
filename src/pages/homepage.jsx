@@ -13,7 +13,7 @@ import {
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
+// import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -207,7 +207,26 @@ const Homepage = () => {
 							</div>
 
 							<div className="homepage-works">
-								<Works />
+								{/* <Works /> */}
+								{myArticles.slice(-6, -3).reverse().map((article, index) => (
+									<div
+										className="homepage-article-outer"
+										key={index.toString()}
+									>
+										<Link 
+											to={"/article/" + (myArticles.length - 3 - index)} 
+											className="homepage-article-link"
+										>
+											<Article
+												key={index.toString()}
+												date={article().date}
+												title={article().title}
+												description={article().description}
+												link={"/article/" + (myArticles.length - index)}
+											/>
+										</Link>
+									</div>
+								))}
 							</div>
 						</div>
 

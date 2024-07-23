@@ -63,8 +63,8 @@
 }
 
 .tag-button:hover, .tag-button:focus {
-    background-color: #fafafa; /* blue background on hover/focus */
-    color: var(--primary-color); /* white text on hover/focus */
+    background-color: #4fa4ff; /* blue background on hover/focus */
+    color: #fafafa; /* white text on hover/focus */
     border-color: #0056b3; /* darker blue border on hover/focus */
     outline: none; /* removes the outline to maintain custom focus styles */
 }
