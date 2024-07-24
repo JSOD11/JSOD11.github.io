@@ -32,10 +32,11 @@ function App() {
                 <Route path="/article/write-article" element={<WriteArticle />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/home" element={<Navigate to="/" replace />} />
-                <Route path="*" element={<Navigate to="/journal" replace />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
         </div>
     );
 }
+
 
 export default App;

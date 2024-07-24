@@ -92,9 +92,9 @@ function article_2() {
 						<div className="body-text">
 							I grew up in the small suburban town of Westwood, Massachusetts.
 							<br></br><br></br>
-							My mother went to Rutgers and is a vice principal at a public high school in East Boston and immigrated to the United States as a child from Buenos Aires, Argentina. Her parents both grew up in Buenos Aires, and 3 of her grandparents are originally from Spain. Her other grandparent was born in Buenos Aires, but his parents both came to Argentina as Jewish immigrants from an area of Eastern Europe called Bessarabia, which no longer exists. The area is now somewhere in the region of Moldova, Ukraine, and Romania. See <a href="/article/4">My Mother's Side</a>.
+							My mother went to Rutgers and is a vice principal at a public high school in East Boston and immigrated to the United States as a child from Buenos Aires, Argentina. Her parents both grew up in Buenos Aires, and 3 of her grandparents are originally from Spain. Her other grandparent was born in Buenos Aires, but his parents both came to Argentina as Jewish immigrants from an area of Eastern Europe called Bessarabia, which no longer exists. The area is now somewhere in the region of Moldova, Ukraine, and Romania. See <a href="/#/article/4">My Mother's Side</a>.
 							<br></br><br></br>
-							My father went to Berklee College of Music and is a music teacher at a public elementary school in East Boston. His mother is from London, England, and his father was born in the United States as the son of Eleanor Starbuck, a descendant of the Starbuck whaling family, originally based in Nantucket. Myself, my father, and I all share the middle name Starbuck as an homage. See <a href="/article/5">My Father's Side</a>.
+							My father went to Berklee College of Music and is a music teacher at a public elementary school in East Boston. His mother is from London, England, and his father was born in the United States as the son of Eleanor Starbuck, a descendant of the Starbuck whaling family, originally based in Nantucket. Myself, my father, and I all share the middle name Starbuck as an homage. See <a href="/#/article/5">My Father's Side</a>.
 						</div>
 				</div>
 			</React.Fragment>
@@ -285,7 +285,7 @@ function article_5() {
 								"Get on with it or I'm going back to the Fun Facts blog post!"
 							</div>
 
-							Alright, alright. I mean really it's a <a href="/article/1"><i>journal entry</i></a> not a blog post. You see, there really is a semantic difference there. But I digress.
+							Alright, alright. I mean really it's a <a href="/#/article/1"><i>journal entry</i></a> not a blog post. You see, there really is a semantic difference there. But I digress.
 							<br></br><br></br>
 							You've probably heard of (but probably never read) <a href="https://en.wikipedia.org/wiki/Moby-Dick" target="_blank" rel="noreferrer">Moby Dick</a>. The book is about whalers in the northeast, specifically a fictional 19th century Nantucket whaling ship called the Pequod. Inspired by true events, Melville chose to name the first mate of the Pequod <i>Starbuck</i>.
 							<br></br><br></br>
@@ -467,7 +467,7 @@ function article_7() {
 							There are two parts of the mind: The rational part (the brain) and the animal part (the body). <b>We must choose only a small number of habits that relate to our Path and only then, with the rational mind, carefully design a plan that will <i>force</i> the body to act in a productive way.</b> We cannot let the body act productively only when it is excited. Thus, we design a plan such that the body will act in the way that the brain wants it to, even in those moments when we are not feeling excited, even when it rains, even when it sucks.
 
 							<br></br><br></br>
-							I believe that there is no such relationship as the brain guiding the body or the body guiding the brain. The brain exists with the body as its vessel. The brain gives the body suggestions, while the body acts on its own (see <a href="/article/8">Mind, Body, Spandrels, and Sensation</a>). For example, I used to have an issue where I would wake up and sit in bed scrolling on Instagram for a long while if I didn't have anything immediately planned. My brain wanted this to stop, but each morning when I woke up, I'd still lie there. The body would pick up the phone and scroll on Instagram.
+							I believe that there is no such relationship as the brain guiding the body or the body guiding the brain. The brain exists with the body as its vessel. The brain gives the body suggestions, while the body acts on its own (see <a href="/#/article/8">Mind, Body, Spandrels, and Sensation</a>). For example, I used to have an issue where I would wake up and sit in bed scrolling on Instagram for a long while if I didn't have anything immediately planned. My brain wanted this to stop, but each morning when I woke up, I'd still lie there. The body would pick up the phone and scroll on Instagram.
 
 							<br></br><br></br>
 							Instead of chalking this up to laziness or lack of mental fortitude, I believe the better view is to observe an instance of discord between the mind and the body, with the body flooding the brain with sensations that ensure my limbs will not move to lift me up. Framing the problem in this way, a wrestling match between the mind and body is now a puzzle: In moments when the body is strong and the mind is weak, how can the mind win? To combat this, I created a note that I keep open on my phone, with one task being "Get out of bed within 5 minutes of waking up" and one task being "Leave this note open upon going to sleep." Then, when the body opens the phone at 8am, there's a checkbox staring me in the face telling me to not think about anything else, just stand up before 8:05, check that box, then see how I feel. And then once I've stood up (and with a good night's sleep, too), the body's power over the brain fades.
@@ -479,7 +479,7 @@ function article_7() {
 							A new habit constitutes a new environment to which the mind is subjecting the body on a repeated basis. Especially if this habit involves some level of strain on the body, it is essential to recognize that the body is likely to fight back or reject the activity.
 
 							<br></br><br></br>
-							For example, if I were to sit around not exercising for a week and then get up and try to run 5 miles as fast as I could, I can say with pretty high certainty that I'd get a migraine afterwards. This is my body's way of saying "What the f*** dude?" It is essential to recognize the difference between the mind and body (as discussed in <a href="/article/8">Mind, Body, Spandrels, and Sensation</a>) when it comes to habit formation.
+							For example, if I were to sit around not exercising for a week and then get up and try to run 5 miles as fast as I could, I can say with pretty high certainty that I'd get a migraine afterwards. This is my body's way of saying "What the f*** dude?" It is essential to recognize the difference between the mind and body (as discussed in <a href="/#/article/8">Mind, Body, Spandrels, and Sensation</a>) when it comes to habit formation.
 						
 							<br></br><br></br>
 							Indeed, what is a habit? It is a repeated action undertaken with the intention of stimulating desirable change or adaptation within the body. To achieve consistency in a habit, it cannot be the mind alone that believes in the value; The body must be gradually accustomed to and accepting of the action, or it will fight back. <b>With careful planning and experimentation, one must gradually introduce the habit in a way that is sustainable, motivated by internal factors rather than external, and does not cause the body to reject the habit.</b> If one can manage to slowly build the habit for 6+ months, with a focus on consistency, then it will likely stick around. This is why a person who adopts a habit under pattern 2 is exceedingly rare — to adopt a new habit so quickly without burning out (the body rejecting the new environment) suggests a very deep attunement to one's body.
@@ -762,7 +762,7 @@ function article_11() {
 							The Isolated Mind
 						</div>
 						<div className="body-text">
-							As I have discussed in other posts (see <a href="/article/8">Mind, Body, Spandrels, and Sensation</a>), my view is that the mind is synonymous with the self and the body and its sensations are best considered as external to the mind. If I feel joyful, this is my way of expressing in the English language a certain kind of positive sensation that others can relate to. If I feel distressed, this is my way of, in the English language, describing a certain kind of bodily sensation I am feeling, that others can imagine.
+							As I have discussed in other posts (see <a href="/#/article/8">Mind, Body, Spandrels, and Sensation</a>), my view is that the mind is synonymous with the self and the body and its sensations are best considered as external to the mind. If I feel joyful, this is my way of expressing in the English language a certain kind of positive sensation that others can relate to. If I feel distressed, this is my way of, in the English language, describing a certain kind of bodily sensation I am feeling, that others can imagine.
 							<br></br><br></br>
 							The reason for these describing words, and for our insistence on the term "emotion" rather than "sensation," is in my opinion because it is impossible for any of us to ever experience the world from someone else's body, and the range of possible sensations is infinite, so we use emotion words to put broad classes of sensations into boxes. Otherwise, we'd really have no way to communicate about how our bodies feel.
 							<br></br><br></br>
@@ -834,7 +834,7 @@ function article_12() {
 							The Artificial Artist?
 						</div>
 						<div className="body-text">
-							I sense a growing angst in the creative community regarding the development of AI. If you have read <a href="/article/11">11: On Art</a>, you may be able to see my perspective.
+							I sense a growing angst in the creative community regarding the development of AI. If you have read <a href="/#/article/11">11: On Art</a>, you may be able to see my perspective.
 							<br></br><br></br>
 							In that entry, I describe true art as the process of a single person creating an experience for others with the intention of evoking specific human sensations that cannot be communicated through other media. The artist experiences an internal set of strong sensations, and they boil this internal experience into a physical art form for personal satisfaction and for others to ponder. The art is a reflection of the artist's personal internal state, and to enjoy art is to reflect on the artist's communication of this feeling.
 							<br></br><br></br>
