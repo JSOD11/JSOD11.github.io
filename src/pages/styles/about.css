@@ -19,6 +19,8 @@
 	height: 100%;
 	margin: 0;
 	padding-top: 120px;
+	width: 100%;
+	min-width: 410px;
 }
 
 .about-main {
@@ -67,6 +69,10 @@
 
 .about-socials-mobile {
 	display: none;
+}
+
+.about-padding-div {
+	padding-bottom: 310px;
 }
 
 @media (max-width: 1024px) {

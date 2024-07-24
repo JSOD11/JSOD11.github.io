@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 // import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+// import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -29,7 +29,7 @@ const About = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+			<div className="page-content">
 				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
@@ -46,10 +46,10 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									I graduated from Harvard with a 3.97 GPA and concentrated in computer science with a secondary in mathematics and a citation in Spanish. I took enough graduate-level courses during undergrad to also graduate with a master's degree in computer science. I've been playing the drums since age 3 and one of my bands, Boom Boom Sauce, won Harvard's Battle of the Bands in 2024 (pictured right). I went to Westwood High School in my hometown of Westwood, MA.
+									I graduated from Harvard with a 3.97 GPA and concentrated in computer science with a secondary in mathematics and a citation in Spanish. I took enough graduate-level courses during undergrad to also graduate with a master's degree in computer science. I've been playing the drums since age 3 and one of my bands, Boom Boom Sauce, won Harvard's Battle of the Bands in 2024 (pictured). I went to Westwood High School in my hometown of Westwood, MA.
 									<br></br><br></br>
 									If you'd like to learn more about me, check out some of my journal entries under the <b>Personal</b> tag.
-									<br></br><br></br>
+									<div className="about-padding-div"></div>
 								</div>
 							</div>
 
@@ -69,9 +69,9 @@ const About = () => {
 								</div> */}
 							</div>
 						</div>
-						<div className="about-socials-mobile">
+						{/* <div className="about-socials-mobile">
 							<Socials />
-						</div>
+						</div> */}
 					</div>
 					<div className="page-footer">
 						<Footer />

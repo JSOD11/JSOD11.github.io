@@ -67,4 +67,10 @@
 	.homepage-article {
 		width: 100%;
 	}
+
+	.homepage-article-outer:hover {
+		opacity: 1;
+		background-color: rgb(255, 250, 245);
+		border: 0px;
+	}
 }

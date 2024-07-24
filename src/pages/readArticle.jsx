@@ -38,37 +38,38 @@ const ReadArticle = () => {
 
 			<div className="page-content">
 				<NavBar />
-
 				<div className="content-wrapper">
-					<div className="read-article-back">
-						<img
-							src="../back-button.png"
-							alt="back"
-							className="read-article-back-button"
-							onClick={() => navigate(-1)}
-						/>
-					</div>
+					<div className="read-article-main-container">
+						<div className="read-article-back">
+							<img
+								src="../back-button.png"
+								alt="back"
+								className="read-article-back-button"
+								onClick={() => navigate(-1)}
+							/>
+						</div>
 
-					<div className="read-article-container">
+						<div className="read-article-container">
 
-						<div className="read-article-wrapper">
-							<div className="read-article-date-container">
-								<div className="read-article-date">
-									{article().date}
+							<div className="read-article-wrapper">
+								<div className="read-article-date-container">
+									<div className="read-article-date">
+										{article().date}
+									</div>
+								</div>
+
+								<div className="title read-article-title">
+									{article().title}
+								</div>
+
+								<div className="read-article-body">
+									<ArticleStyle>{article().body}</ArticleStyle>
 								</div>
 							</div>
-
-							<div className="title read-article-title">
-								{article().title}
-							</div>
-
-							<div className="read-article-body">
-								<ArticleStyle>{article().body}</ArticleStyle>
-							</div>
 						</div>
-					</div>
-					<div className="page-footer">
-						<Footer />
+						<div className="page-footer">
+							<Footer />
+						</div>
 					</div>
 				</div>
 			</div>

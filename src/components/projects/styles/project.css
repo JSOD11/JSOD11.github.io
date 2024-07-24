@@ -70,4 +70,14 @@
 	.project {
 		height: 300px;
 	}
+	
+	.project:hover {
+		opacity: 1;
+		background-color: rgb(255, 250, 245);
+		border: 0px;
+	}
+	
+	.project:hover .project-link {
+		transition: color 0.3s ease-in-out;
+	}
 }

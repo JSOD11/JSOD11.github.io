@@ -6,6 +6,15 @@
 	padding-top: 25px;
 }
 
+.read-article-main-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 50px;
+	width: 90%;
+}
+
 .read-article-logo {
 	display: flex;
 	position: fixed;

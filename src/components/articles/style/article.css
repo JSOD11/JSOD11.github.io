@@ -71,4 +71,10 @@
 		min-width: 85%;
 		max-width: 85%;
 	}
+
+	.article-right-side:hover {
+		opacity: 1;
+		background-color: rgb(255, 250, 245);
+		border: 0px;
+	}
 }

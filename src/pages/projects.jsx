@@ -39,6 +39,7 @@ const Projects = () => {
 					</div> */}
 					<div className="projects-container">
 						<div className="title projects-title">
+							<br></br>
 							Projects
 						</div>
 

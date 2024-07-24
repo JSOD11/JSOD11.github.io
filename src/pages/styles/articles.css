@@ -24,6 +24,7 @@
 .articles-container {
 	display: flex;
 	flex-direction: column;
+	max-width: 90%;
 }
 
 .articles-wrapper {
@@ -44,6 +45,9 @@
 .article-tags {
     display: flex;
     justify-content: center;
+	max-width: 100%;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 
 .tag-button {

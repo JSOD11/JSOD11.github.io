@@ -65,43 +65,43 @@ const Articles = () => {
 						</div>
 
 						<div className="article-tags">
-						<button
-							className={`tag-button ${selectedTag === 'All' ? 'tag-button-active' : ''}`}
-							onClick={() => setSelectedTag('All')}
-						>
-							All
-						</button>
-						<button
-							className={`tag-button ${selectedTag === 'Principles' ? 'tag-button-active' : ''}`}
-							onClick={() => setSelectedTag('Principles')}
-						>
-							Principles
-						</button>
-						<button
-							className={`tag-button ${selectedTag === 'Thoughts' ? 'tag-button-active' : ''}`}
-							onClick={() => setSelectedTag('Thoughts')}
-						>
-							Thoughts
-						</button>
-						<button
-							className={`tag-button ${selectedTag === 'Reflections' ? 'tag-button-active' : ''}`}
-							onClick={() => setSelectedTag('Reflections')}
-						>
-							Reflections
-						</button>
-						<button
-							className={`tag-button ${selectedTag === 'Personal' ? 'tag-button-active' : ''}`}
-							onClick={() => setSelectedTag('Personal')}
-						>
-							Personal
-						</button>
-						<button
-							className={`tag-button ${selectedTag === 'Misc' ? 'tag-button-active' : ''}`}
-							onClick={() => setSelectedTag('Misc')}
-						>
-							Misc
-						</button>
-					</div>
+							<button
+								className={`tag-button ${selectedTag === 'All' ? 'tag-button-active' : ''}`}
+								onClick={() => setSelectedTag('All')}
+							>
+								All
+							</button>
+							<button
+								className={`tag-button ${selectedTag === 'Principles' ? 'tag-button-active' : ''}`}
+								onClick={() => setSelectedTag('Principles')}
+							>
+								Principles
+							</button>
+							<button
+								className={`tag-button ${selectedTag === 'Thoughts' ? 'tag-button-active' : ''}`}
+								onClick={() => setSelectedTag('Thoughts')}
+							>
+								Thoughts
+							</button>
+							<button
+								className={`tag-button ${selectedTag === 'Reflections' ? 'tag-button-active' : ''}`}
+								onClick={() => setSelectedTag('Reflections')}
+							>
+								Reflections
+							</button>
+							<button
+								className={`tag-button ${selectedTag === 'Personal' ? 'tag-button-active' : ''}`}
+								onClick={() => setSelectedTag('Personal')}
+							>
+								Personal
+							</button>
+							<button
+								className={`tag-button ${selectedTag === 'Misc' ? 'tag-button-active' : ''}`}
+								onClick={() => setSelectedTag('Misc')}
+							>
+								Misc
+							</button>
+						</div>
 
 
 						<div className="articles-container">

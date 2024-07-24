@@ -9,7 +9,8 @@ function article_1() {
 			"Welcome!",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -59,7 +60,8 @@ function article_2() {
 			"Information about myself, my parents, and my family background.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -109,7 +111,8 @@ function article_3() {
 			"A collection of interesting, odd, unusual, or mildly amusing facts about my family.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -175,7 +178,8 @@ function article_4() {
 			"Stories of Spain and Argentina.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -200,7 +204,7 @@ function article_4() {
 		body: (
 			<React.Fragment>
 				<div className="article-container">
-						<div className="subtitle" style={ {width: '700px'} }>
+						<div className="subtitle" style={ {width: '100%'} }>
 							Spain and Argentina
 						</div>
 						<div className="body-text">
@@ -235,7 +239,8 @@ function article_5() {
 			"Stories of England and the USA.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -312,7 +317,8 @@ function article_6() {
 			"How this journal is organized.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -343,7 +349,7 @@ function article_6() {
 						<div className="body-text">
 							For the moment, journal entries can have be tagged as follows:
 							<br></br><br></br>
-							<b style={ {paddingLeft: '20%', fontSize: '20px'} }>Principles, Thoughts, Reflections, Personal</b>
+							<b style={ { fontSize: '20px' } }>Principles, Thoughts, Reflections, Personal</b>
 							<br></br><br></br>
 							The <b>Principles</b> tag is for entries that contain bits wisdom or advice I've come across or made up on my own.
 							<br></br><br></br>
@@ -372,7 +378,8 @@ function article_7() {
 			"On the pitfalls of habit formation.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -495,7 +502,8 @@ function article_8() {
 			"Thoughts on the relationship between the mind and the body.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -529,7 +537,7 @@ function article_8() {
 
 							<div style={ { paddingTop: '10%', paddingBottom: '10%', justifyContent: 'center', paddingLeft: '10%' } }>
 								<a href="https://en.wikipedia.org/wiki/Spandrel_%28biology%29" target="_blank" rel="noreferrer">
-									<img style={ { border: 'solid black 2px' } } src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Spandrel_%28PSF%29.png/440px-Spandrel_%28PSF%29.png" alt="Spandrel"></img>
+									<img style={ { width: '100%', border: 'solid black 2px' } } src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Spandrel_%28PSF%29.png/440px-Spandrel_%28PSF%29.png" alt="Spandrel"></img>
 								</a>
 							</div>
 
@@ -595,7 +603,8 @@ function article_9() {
 			"A reminder to look out for confounders.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -626,7 +635,7 @@ function article_9() {
 						<div className="body-text">
 							If you're on this page, you're probably already familiar with the idea. But mistakes related to this are so pervasive I feel it is necessary to include this as one of my principles.
 							<br></br><br></br>
-							<b style={ {paddingLeft: '20%', fontSize: '20px'} }>Fresh air breaks and lung cancer</b>
+							<b style={ { fontSize: '20px' } }>Fresh air breaks and lung cancer</b>
 							<br></br><br></br>
 							I conduct a very famous (hypothetical) study, in which I poll a large number of people with lung cancer and without lung cancer and ask them how often they took fresh air breaks at work. I collect the data, I create a scatterplot. The results are astounding: People who took less fresh air breaks are less likely to have lung cancer, and people who took more fresh air breaks are more likely to have lung cancer. Oh my god, fresh air causes lung cancer! This is incredible! Everybody, I beg you, DO NOT go outside!
 							<br></br><br></br>
@@ -655,7 +664,8 @@ function article_10() {
 			"A reflection on The Hitchhiker's Guide to the Galaxy, by Douglas Adams.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -722,7 +732,8 @@ function article_11() {
 			"My view on art and what constitutes good art — and bad art.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -793,7 +804,8 @@ function article_12() {
 			"An optimistic take on the creative uses of AI.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -861,7 +873,7 @@ function article_12() {
 // 			"My view on what I believe to be a core dilemma every artist must face when creating a work.",
 // 		style: `
 // 				.article-container {
-// 					width: 700px;
+// 					width: 100%;
 // 				}
 // 				.subtitle {
 // 					font-size: 30px;
@@ -907,7 +919,8 @@ function article_13() {
 			"Can you solve it?",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -1003,7 +1016,8 @@ function article_14() {
 			"The way we spend all our moments combined determines the trajectory of our life, yet each moment in isolation is insignificant.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -1064,7 +1078,8 @@ function article_15() {
 			"The river flows.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
@@ -1134,7 +1149,8 @@ function article_16() {
 			"A discussion of logotherapy.",
 		style: `
 				.article-container {
-					width: 700px;
+					width: 100%;
+					min-width: 345px;
 				}
 				.subtitle {
 					font-size: 30px;
