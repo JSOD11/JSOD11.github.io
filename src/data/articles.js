@@ -1259,7 +1259,7 @@ function article_17() {
 							</div>
 							An <i>ability</i> refers to a person's actual skill level in a given task. If a person is a high-performing software engineer, then they have a high level of ability in this field. Someone can have a high level of ability when it comes to being hardworking, or ambitious, or socially adept, and so on.
 							<br></br><br></br>
-							Indeed, a person's <i>brands</i> allows us to guess about their <i>abilities</i>.
+							Indeed, a person's <i>brands</i> allow us to guess about their <i>abilities</i>.
 							<div className="subtitle">
 								The Problem
 							</div>
