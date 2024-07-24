@@ -533,11 +533,11 @@ function article_8() {
 						</div> */}
 						<div className="body-text">
 							<br></br><br></br>
-							<b>I see the human mind as a <a href="https://en.wikipedia.org/wiki/Spandrel_%28biology%29" target="_blank" rel="noreferrer">spandrel</a> — an accidental byproduct of evolution.</b>
+							<b>I see the conscious part of the human mind as a <a href="https://en.wikipedia.org/wiki/Spandrel_%28biology%29" target="_blank" rel="noreferrer">spandrel</a> — an accidental byproduct of evolution.</b>
 
-							<div style={ { paddingTop: '10%', paddingBottom: '10%', justifyContent: 'center', paddingLeft: '10%' } }>
+							<div style={ { paddingTop: '10%', paddingBottom: '10%', justifyContent: 'center', paddingLeft: '10%', paddingRight: '10%' } }>
 								<a href="https://en.wikipedia.org/wiki/Spandrel_%28biology%29" target="_blank" rel="noreferrer">
-									<img style={ { width: '100%', border: 'solid black 2px' } } src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Spandrel_%28PSF%29.png/440px-Spandrel_%28PSF%29.png" alt="Spandrel"></img>
+									<img style={ { width: '80%', border: 'solid black 2px' } } src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Spandrel_%28PSF%29.png/440px-Spandrel_%28PSF%29.png" alt="Spandrel"></img>
 								</a>
 							</div>
 
