@@ -1210,6 +1210,79 @@ function article_16() {
 	};
 }
 
+function article_17() {
+	return {
+		id: "17",
+		date: "July 24, 2024",
+		title: "17: Brands vs Abilities",
+		description:
+			"Two concepts that are often confused but are fundamentally distinct.",
+		style: `
+				.article-container {
+					width: 100%;
+					min-width: 345px;
+				}
+				.subtitle {
+					font-size: 30px;
+					color: dark-gray;
+					font-weight: bold;
+					padding-bottom: 5%
+				}
+				.body-text {
+					font-size: 18px;
+					color: black;
+					font-weight: normal;
+				}
+				`,
+		keywords: [
+			"Justin",
+			"Justin O",
+			"Justin O'Dwyer",
+		],
+		tags: [
+			"Principles"
+		],
+		body: (
+			<React.Fragment>
+				<div className="article-container">
+						<div className="subtitle">
+							Brands
+						</div>
+						<div className="body-text">
+							A <i>brand</i> is a label infused into a person's identity by a socially significant organization. A brand is like a sticker that only some people get to wear. A degree from a top university is a great brand. A job at a top company is another great brand. A prestigious award is a great brand.
+							<br></br><br></br>
+							<b>As a society, why do we have brands?</b> The reason is because, if someone has stacked up a number of good or great brands, it allows other people to quickly pass a series of judgments about them. If someone went to a great college, we can assume that they are very smart, hardworking, and ambitious, without any other information. If someone works at a great company, we know that they must have some money, some domain expertise, that they are well-connected, that they are socially adept, and so on. A prestigious award means that this person has already been vetted by a group of experts and was determined to be exceptional. So we can quickly have some pretty high degree of confidence that this person is good at whatever they do.
+							<br></br><br></br>
+							Reputable brands are useful tools. When an organization has built up a reputable brand, they have the power to grant privilege onto people who they allow to wear the brand. The brand then helps the person to succeed by making others trust their abilities more easily, and if the person succeeds, then it further helps the power of the brand.
+							<div className="subtitle">
+								Abilities
+							</div>
+							An <i>ability</i> refers to a person's actual skill level in a given task. If a person is a high-performing software engineer, then they have a high level of ability in this field. Someone can have a high level of ability when it comes to being hardworking, or ambitious, or socially adept, and so on.
+							<br></br><br></br>
+							Indeed, a person's <i>brands</i> allows us to guess about their <i>abilities</i>.
+							<div className="subtitle">
+								The Problem
+							</div>
+							There would be no issue if brands perfectly predicted abilities. Then you could look at a person with stronger brands, and confidently say that they have stronger abilities. If you were hiring talent, you wouldn't need to even conduct interviews.
+							<br></br><br></br>
+							<b>The problem is that, in my experience, brands often only roughly correlate to abilities</b>.
+							<br></br><br></br>
+							It seems true that, maybe on average, a student who recently graduated from a higher ranked university will be a better hire than a student who recently graduated from a lower ranked university. <b>But the truth is, abilities are highly malleable and change drastically over time. Abilities are the ground truth, and, in the end, the truth will eventually bubble to the surface.</b>
+							<br></br><br></br>
+							The principle is this:
+							<br></br><br></br>
+							<i>Brands only roughly correlate with abilities. Furthermore, the more time that has passed from the granting of the brand, the less trustworthy it becomes.</i>
+							<br></br><br></br>
+							<i>Brands, at their core, are the tools of the salesperson: They are a glorified sticker declaring that a third party, at one point in time, endorsed the individual's abilities. Brands are a great signal, but they are separate from the truth.</i>
+							<br></br><br></br>
+							<i>Therefore, do not let your attention become fixated on brands. Instead, focus your energy on the continual growth of your abilities. An obsession with the improvement of one's abilities may lead to more impressive brands, but an obsession with brands will not lead to anything at all.</i>
+						</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
 
 const myArticles = [
 	article_1,
@@ -1227,7 +1300,8 @@ const myArticles = [
 	article_13,
 	article_14,
 	article_15,
-	article_16
+	article_16,
+	article_17
 ];
 
 export default myArticles;
