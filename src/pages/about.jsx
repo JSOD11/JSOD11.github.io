@@ -46,7 +46,7 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									I graduated from Harvard with a 3.97 GPA and concentrated in computer science with a secondary in mathematics and a citation in Spanish. I took enough graduate-level courses during undergrad to also graduate with a master's degree in computer science. I went to Westwood High School in my suburban hometown of Westwood, MA.
+									I graduated from Harvard with a 3.97 GPA and concentrated in computer science with a secondary in mathematics and a citation in Spanish. I took enough graduate-level courses during undergrad to also graduate with a master's degree in computer science. I've been playing the drums since age 3 and one of my bands, Boom Boom Sauce, won Harvard's Battle of the Bands in 2024 (pictured right). I went to Westwood High School in my hometown of Westwood, MA.
 									<br></br><br></br>
 									If you'd like to learn more about me, check out some of my journal entries under the <b>Personal</b> tag.
 									<br></br><br></br>

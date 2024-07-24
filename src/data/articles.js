@@ -775,7 +775,7 @@ function article_11() {
 							<br></br><br></br>
 							Again borrowing some ideas from Rubin, bad art is created with the goal of making something that the artist <i>thinks other people want</i>. Bad art looks outward, not inward. For examples of this, look at any high budget shitty movie or pop single that recently came out. These works were created not to express an artist's vision but by men in suits looking at other movies or pop singles that succeeded and trying to recreate them. There was no artist with a sensational vision — there was a large group of people, all with weak visions, and as each contributed more of their ideas, any sensation that did exist was diluted into a boring and unemotional blob.
 							<br></br><br></br>
-							Good art is personal. Good art is the vision of, generally, a single person. And like Picasso's <i>Guernica</i>, Tolkein's <i>The Lord of the Rings</i>, Miyazaki's <i>Dark Souls</i>, Liszt's <i>Liebesträume</i>, Miura's <i>Berserk</i>, Hesse's <i>Siddhartha</i>, Beethoven's <i>Moonlight Sonata</i>, Aonuma and Koizumi's <i>Majora's Mask</i>, van Gogh's <i>Starry Night</i>, and Lucas' <i>Star Wars</i>, good art makes us feel in a way that nothing else can; It pinpoints a sensation that we struggle to express; It links our minds.
+							Good art is personal. Good art is the vision of, generally, a single person. And like Picasso's <i>Guernica</i>, Tolkein's <i>The Lord of the Rings</i>, Miyazaki's <i>Dark Souls</i>, Liszt's <i>Liebesträume</i>, Miura's <i>Berserk</i>, Hesse's <i>Siddhartha</i>, Beethoven's <i>Moonlight Sonata</i>, Aonuma and Koizumi's <i>Majora's Mask</i>, van Gogh's <i>Starry Night</i>, and Lucas' <i>Star Wars</i>, good art makes us feel in a way that nothing else can; It pinpoints a sensation that we struggle to express. It makes us feel understood. For human beings stuck alone in our own conscious experience, it brings us together.
 						</div>
 				</div>
 			</React.Fragment>
@@ -787,7 +787,7 @@ function article_11() {
 function article_12() {
 	return {
 		id: "12",
-		date: "July 22, 2024",
+		date: "July 23, 2024",
 		title: "12: On AI in Creative Disciplines",
 		description:
 			"An optimistic take on the creative uses of AI.",
@@ -819,68 +819,90 @@ function article_12() {
 			<React.Fragment>
 				<div className="article-container">
 						<div className="subtitle">
-							The artificial artist?
+							The Artificial Artist?
 						</div>
 						<div className="body-text">
-							I have seen a growing concern among artists 
+							I sense a growing angst in the creative community regarding the development of AI. If you have read <a href="/article/11">11: On Art</a>, you may be able to see my perspective.
+							<br></br><br></br>
+							In that entry, I describe true art as the process of a single person creating an experience for others with the intention of evoking specific human sensations that cannot be communicated through other media. The artist experiences an internal set of strong sensations, and they boil this internal experience into a physical art form for personal satisfaction and for others to ponder. The art is a reflection of the artist's personal internal state, and to enjoy art is to reflect on the artist's communication of this feeling.
+							<br></br><br></br>
+							AI cannot do this, because it is not human. The best art is generally produced by a single person, and it is a raw, flawed, very personal creation, born from within. Art created by AI is the opposite: It is an average of previous works, it is highly produced, it is not flawed, and most importantly, no human boiled their experience into it. It can certainly still be of great value — if you are an artist who makes brand assets, you will see the rise of new AI tools that assist in the creation of brand assets, and this can help you do your job. But, by my definition, what the AI creates will either struggle or fail entirely to be classified as real art.
+							<div className="subtitle">
+								When AI Is Useless
+							</div>
+							No AI tool was used to write the text of any of these journal entries (they were, of course, used to help me write the code for the site). Why? Because I know what I want to say, so I'm just going to go ahead and say it.
+							<br></br><br></br>
+							<b>The only time people use AI in their writing is when they aren't sure what to say.</b>
+							<br></br><br></br>
+							If I know precisely what I want to say, I can just say it. That's it.
+							<div className="subtitle">
+								When AI Is Useful
+							</div>
+							I feel comfortable enough with words that I feel I can express precisely what I mean. But what about times when — in another medium, such as visual art — I have a broad sense of what I want to convey, and I'm not totally sure how to do so?
+							<br></br><br></br>
+							<b>AI can help us express ourselves when he have something we want to say, but we aren't sure how.</b>
+							<br></br><br></br>
+							In other words, it is silly to ask AI to speak on your behalf, because then you're no longer the one speaking! Do not let AI speak for you. But <i>do</i> use AI to help you figure out what you want to say.
+							<br></br><br></br>
+							I believe that the education of the next generation of children will be the greatest educational experience that any generation has ever received due to AI. I just hope that the value of thinking originally, entirely for oneself, is not slowly lost. Indeed, even the greatest superintelligent AI cannot "solve" human art, or mull over Plato's <i>Republic</i>. These are, in my view, <i>definitionally human</i> endeavors.
 						</div>
 				</div>
 			</React.Fragment>
 		),
 	};
 }
+
+// function article_13() {
+// 	return {
+// 		id: "13",
+// 		date: "July 22, 2024",
+// 		title: "13: The Artistic Dilemma",
+// 		description:
+// 			"My view on what I believe to be a core dilemma every artist must face when creating a work.",
+// 		style: `
+// 				.article-container {
+// 					width: 700px;
+// 				}
+// 				.subtitle {
+// 					font-size: 30px;
+// 					color: dark-gray;
+// 					font-weight: bold;
+// 					padding-bottom: 5%
+// 				}
+// 				.body-text {
+// 					font-size: 18px;
+// 					color: black;
+// 					font-weight: normal;
+// 				}
+// 				`,
+// 		keywords: [
+// 			"Justin",
+// 			"Justin O",
+// 			"Justin O'Dwyer",
+// 		],
+// 		tags: [
+// 			"Thoughts",
+// 		],
+// 		body: (
+// 			<React.Fragment>
+// 				<div className="article-container">
+// 						<div className="subtitle">
+// 							The Fundamental Tradeoff
+// 						</div>
+// 						<div className="body-text">
+
+// 						</div>
+// 				</div>
+// 			</React.Fragment>
+// 		),
+// 	};
+// }
 
 function article_13() {
 	return {
 		id: "13",
-		date: "July 22, 2024",
-		title: "13: The Artistic Dilemma",
-		description:
-			"My view on what I believe to be a core dilemma every artist must face when creating a work.",
-		style: `
-				.article-container {
-					width: 700px;
-				}
-				.subtitle {
-					font-size: 30px;
-					color: dark-gray;
-					font-weight: bold;
-					padding-bottom: 5%
-				}
-				.body-text {
-					font-size: 18px;
-					color: black;
-					font-weight: normal;
-				}
-				`,
-		keywords: [
-			"Justin",
-			"Justin O",
-			"Justin O'Dwyer",
-		],
-		tags: [
-			"Thoughts",
-		],
-		body: (
-			<React.Fragment>
-				<div className="article-container">
-						<div className="subtitle">
-							The Fundamental Tradeoff
-						</div>
-						<div className="body-text">
-
-						</div>
-				</div>
-			</React.Fragment>
-		),
-	};
-}
-
-function article_14() {
-	return {
-		id: "14",
 		date: "July 23, 2024",
-		title: "14: A Good Brainteaser",
+		title: "13: A Good Brainteaser",
 		description:
 			"Can you solve it?",
 		style: `
@@ -972,11 +994,11 @@ function article_14() {
 	};
 }
 
-function article_15() {
+function article_14() {
 	return {
-		id: "15",
+		id: "14",
 		date: "July 23, 2024",
-		title: "15: The Paradox of Small Efforts and Big Results",
+		title: "14: The Paradox of Small Efforts and Big Results",
 		description:
 			"The way we spend all our moments combined determines the trajectory of our life, yet each moment in isolation is insignificant.",
 		style: `
@@ -1007,24 +1029,25 @@ function article_15() {
 			<React.Fragment>
 				<div className="article-container">
 						<div className="subtitle">
-							Fun Facts
+							The Voter's Paradox
 						</div>
 						<div className="body-text">
-							Here are a number of interesting, odd, unusual, or mildly amusing facts about my family. I feel like it is time I write these down before I forget or lose track of what is true:
+							All of us are familiar with <a href="https://en.wikipedia.org/wiki/Paradox_of_voting" target="_blank" rel="noreferrer"><i>The Paradox of Voting</i></a>. If you or I choose not to vote in the upcoming presidential election (side note, at the time of writing, the assassination attempt on Trump has just occurred, and Biden has just dropped out of the presidential race. Crazy!) the outcome will almost certainly not change. So I, as an individual, can be quite confident that if I go about my life as usual, and then don't vote, everything will be the same as it was.
 							<br></br><br></br>
-							<b>1) My great grandmother on my mother's side was a leader on the communist side of the Spanish civil war</b>. She also scored #1 in Spain on a nationwide examination, was friends with the Chilean poet Pablo Neruda, and was sentenced to death by hanging before escaping to Argentina by boat. See the journal entry "My Mother's Side" for more.
+							There is nothing special about me — this is true for every American citizen. At the scope of the individual, what I do does not matter. But paradoxically, if all of us don't vote, it suddenly matters quite a bit!
+						
+							<div className="subtitle">
+								The Paradox Extended
+							</div>
+							I feel this paradox goes far beyond voting to any result comprised of many small indistinct components. When a plant grows, each moment brings quite negligible growth, yet the sum of the moments creates the plant. Each day I partake in a productive habit, such as studying, eating healthy, or going to the gym, the day itself is almost meaningless, yet the sum of all days suddenly has great meaning when viewed over months or years. Remove a single ant from a colony or bee from a hive and business functions as usual; Remove them all and the system folds.
 							<br></br><br></br>
-							<b>2) My middle name is Starbuck.</b> On my father's side, my sixth great grandfather was the Nantucket whaler Joseph Starbuck. The book Moby Dick was written about whalers in this area and included a character named Starbuck as a reference to members of the Starbuck family in Nantucket. The founder of Starbucks Coffee chose to name the company after that character from Moby Dick, which was his favorite book, and the company logo is a siren because the founders liked the image while looking through old marine books. See the journal entry "My Father's Side" for more.
+							<b>What should we make of this? How is it that the days don't matter, but also matter so much?</b>
 							<br></br><br></br>
-							<b>3) My great grandfather on my father's side was named Harry Potter.</b> His full name was Harold Radford Potter, and he went by Harry. He lived in England.
+							My principle is this:
 							<br></br><br></br>
-							<b>4) The "Mayhem Like Me" guy in the Allstate commercials is my second cousin (through marriage).</b> His name is Dean Winters.
+							<i>Each small effort, in isolation, is indeed not the difference-maker, but each small effort is also not the focus. We must instead focus on a productive structure which influences all the small efforts. What matters is not the single voter, the single session in the gym, the single ant. What matters is the system that is in place to motivate all of the small efforts at once. The weak system reminds the small efforts of their insignificance in isolation. The powerful system motivates all of the small efforts by connecting them spiritually to each other and the greater effort. The powerful system inspires hope.</i>
 							<br></br><br></br>
-							<b>5) My great uncle on my mother's side was the famous Spanish comedian José Luis Coll.</b>
-							<br></br><br></br>
-							<b>6) My grandfather on my mother's side traveled frequently for his work and decorated his house with over a thousand small owl figurines collected from across the globe.</b> Side note: I now need to find somewhere to put over a thousand small owl figurines.
-							<br></br><br></br>
-							<b>7) My third cousin, Sean O'Dwyer, was the recording engineer for the Blink-182 album <i>Enema of the State</i> featuring the hit "All The Small Things."</b> 
+							<i>This is the way to overcome the paradox of small efforts and big results: Create a powerful system.</i>
 						</div>
 				</div>
 			</React.Fragment>
@@ -1032,11 +1055,11 @@ function article_15() {
 	};
 }
 
-function article_16() {
+function article_15() {
 	return {
-		id: "16",
+		id: "15",
 		date: "July 23, 2024",
-		title: "16: Siddhartha, by Hermann Hesse",
+		title: "15: Siddhartha, by Hermann Hesse",
 		description:
 			"The river flows.",
 		style: `
@@ -1066,25 +1089,35 @@ function article_16() {
 		body: (
 			<React.Fragment>
 				<div className="article-container">
-						<div className="subtitle">
-							Fun Facts
-						</div>
+						<a style={ { paddingLeft: '20%' } } href="https://en.wikipedia.org/wiki/Siddhartha_(novel)" target="_blank" rel="noreferrer">
+							<img style={ { border: 'solid black 2px', maxWidth: '60%' } } src="https://warblerpress.com/wp-content/uploads/2021/11/Hesse-Siddhartha-cover-half-scaled.jpg" alt="Siddhartha"></img>
+						</a>
 						<div className="body-text">
-							Here are a number of interesting, odd, unusual, or mildly amusing facts about my family. I feel like it is time I write these down before I forget or lose track of what is true:
+							<br></br>
+							I read this book for the first time a few years ago. I recently circled back and read it again, and I'll probably read it again every couple of years or so. Maybe I'll pick up a different translation next time. It is one of my favorites. Maybe I'll return here and write my thoughts. At the moment, though, I'll let the quotations speak for themselves, and when I read them I'll be reminded of how the book made me feel and what it made me think. Maybe it is peace, or awe. I think it cannot be described simply, and the best way to experience it is to read the book.
+							<div className="subtitle">
+								The River
+							</div>
+							<i>"They all loved Siddhartha. He brought joy to them all, he delighted them all.</i>
+							<br></br>
+							<i>But Siddhartha did not bring joy to himself, he did not delight himself... He had begun to sense that his venerable father and his other teachers, that the wise Brahmins had already imparted to him the bulk and the best of their knowledge, that they had already poured their fullness into his waiting vessel, and the vessel was not full, his mind was not contented, his soul was not tranquil, his heart was not sated." (4-5)</i>
 							<br></br><br></br>
-							<b>1) My great grandmother on my mother's side was a leader on the communist side of the Spanish civil war</b>. She also scored #1 in Spain on a nationwide examination, was friends with the Chilean poet Pablo Neruda, and was sentenced to death by hanging before escaping to Argentina by boat. See the journal entry "My Mother's Side" for more.
+							<i>"Listen, Kamala: If you toss a stone into water, it takes the swiftest way to the bottom. And Siddhartha is like that when he has a goal, makes a resolve. Siddhartha does nothing, he waits, he thinks, he fasts, but he passes through the things of the world like the stone through water, never acting, never stirring. He is drawn, he lets himself drop. His goal draws him, for he lets nothing into his soul that could go against his goal. That is what Siddhartha learned among the Samanas. It is what fools call magic and what they think is worked by demons. Anyone can work magic, anyone can reach his goals if he can think, if he can wait, if he can fast." (56)</i>
 							<br></br><br></br>
-							<b>2) My middle name is Starbuck.</b> On my father's side, my sixth great grandfather was the Nantucket whaler Joseph Starbuck. The book Moby Dick was written about whalers in this area and included a character named Starbuck as a reference to members of the Starbuck family in Nantucket. The founder of Starbucks Coffee chose to name the company after that character from Moby Dick, which was his favorite book, and the company logo is a siren because the founders liked the image while looking through old marine books. See the journal entry "My Father's Side" for more.
+							<i>"Most people, Kamala, are like a falling leaf, that wafts and drifts through the air, and twists and tumbles to the ground. Others, however, few, are like stars: they have a fixed course, no wind reaches them, they have their law and their course inside them." (64)</i>
 							<br></br><br></br>
-							<b>3) My great grandfather on my father's side was named Harry Potter.</b> His full name was Harold Radford Potter, and he went by Harry. He lived in England.
+							<i>"'Did the river,' he once asked, 'also teach you this secret: that time does not exist?'</i>
+							<br></br>
+							<i>Vasudeva's face lit up with a bright smile.</i>
+							<br></br>
+							<i>'Yes, Siddhartha,' he said. 'Is this what you mean: that the river is everywhere all at once, at its source and at its mouth, at the waterfall, at the ferry, at the rapids, in the sea, in the mountains, everywhere at once, and only the present exists for it, and not the shadow of the future?'</i>
+							<br></br>
+							<i>'That is it,' said Siddhartha. 'And when I learned that, I looked at my life, and it was also a river, and the boy Siddhartha was separated from the adult Siddhartha and from the old man Siddhartha only by shadow, not by substance. Nor were Siddhartha's earlier births the past, and his death and his return to Brahma are no future. Nothing was, nothing will be; everything is, everything has being and is present.'" (94)</i>
 							<br></br><br></br>
-							<b>4) The "Mayhem Like Me" guy in the Allstate commercials is my second cousin (through marriage).</b> His name is Dean Winters.
-							<br></br><br></br>
-							<b>5) My great uncle on my mother's side was the famous Spanish comedian José Luis Coll.</b>
-							<br></br><br></br>
-							<b>6) My grandfather on my mother's side traveled frequently for his work and decorated his house with over a thousand small owl figurines collected from across the globe.</b> Side note: I now need to find somewhere to put over a thousand small owl figurines.
-							<br></br><br></br>
-							<b>7) My third cousin, Sean O'Dwyer, was the recording engineer for the Blink-182 album <i>Enema of the State</i> featuring the hit "All The Small Things."</b> 
+							<div className="subtitle">
+								Always Searching, Never Finding
+							</div>
+							<i>"'When someone seeks,' said Siddhartha, 'then it easily happens that his eyes see only the thing that he seeks, and he is able to find nothing, to take in nothing because he always thinks only about the thing he is seeking, because he has one goal, because he is obsessed with his goal. Seeking means: having a goal. But finding means: being free, being open, having no goal. You, Venerable One, may truly be a seeker, for, in striving toward your goal, you fail to see certain things that are right under your nose.'" (122)</i>
 						</div>
 				</div>
 			</React.Fragment>
@@ -1092,11 +1125,11 @@ function article_16() {
 	};
 }
 
-function article_17() {
+function article_16() {
 	return {
-		id: "17",
+		id: "16",
 		date: "July 23, 2024",
-		title: "17: Man's Search For Meaning, by Viktor Frankl",
+		title: "16: Man's Search For Meaning, by Viktor Frankl",
 		description:
 			"A discussion of logotherapy.",
 		style: `
@@ -1126,25 +1159,34 @@ function article_17() {
 		body: (
 			<React.Fragment>
 				<div className="article-container">
+						<a style={ { paddingLeft: '20%' } } href="https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning" target="_blank" rel="noreferrer">
+							<img style={ { border: 'solid black 2px', maxWidth: '60%' } } src="https://m.media-amazon.com/images/I/5112lDRbMXL._SL1200_.jpg" alt="Man's Search For Meaning"></img>
+						</a>
 						<div className="subtitle">
-							Fun Facts
+							What Is Meaning?
 						</div>
 						<div className="body-text">
-							Here are a number of interesting, odd, unusual, or mildly amusing facts about my family. I feel like it is time I write these down before I forget or lose track of what is true:
+							I often ask people what the meaning of life is, and answers vary widely. People often mention family, friends, a job they like. Indeed, in Ray Dalio's books, he says we should strive for <i>meaningful work and meaningful relationships</i>. Some mention travel, seeing the world, doing new things, while others leave it more abstract, at finding happiness or fulfillment, reaching one's limits, achieving great things, or doing good for the world. I observe that religious people possibly struggle less with this question than nonreligious people — the answer to this question is built into all major religions, so it requires less active thought. Some people say that life is meaningless. Some say that they don't care what the meaning of life is. And indeed, some say that they've never thought about it before, and would prefer to leave it that way.
 							<br></br><br></br>
-							<b>1) My great grandmother on my mother's side was a leader on the communist side of the Spanish civil war</b>. She also scored #1 in Spain on a nationwide examination, was friends with the Chilean poet Pablo Neruda, and was sentenced to death by hanging before escaping to Argentina by boat. See the journal entry "My Mother's Side" for more.
+							I certainly do not have a good answer to the question, and one of the main reasons for that is because I'm not quite sure what I mean by <i>meaning</i>. In fact, when I ask people what the meaning of life is, I don't even entirely know what question I'm asking. I guess part of the experiment is to see how other people interpret the question.
 							<br></br><br></br>
-							<b>2) My middle name is Starbuck.</b> On my father's side, my sixth great grandfather was the Nantucket whaler Joseph Starbuck. The book Moby Dick was written about whalers in this area and included a character named Starbuck as a reference to members of the Starbuck family in Nantucket. The founder of Starbucks Coffee chose to name the company after that character from Moby Dick, which was his favorite book, and the company logo is a siren because the founders liked the image while looking through old marine books. See the journal entry "My Father's Side" for more.
+							It is easy to see why, then, I picked up a book called <i>Man's Search For Meaning</i>. The first half is the chilling recollection of his experiences in Nazi concentration camps, and the second half is an explanation and discussion of logotherapy, his psychotherapeutic method which argues that the fundamental human drive is the search for meaning. Here are some sentences from it that stuck with me.
 							<br></br><br></br>
-							<b>3) My great grandfather on my father's side was named Harry Potter.</b> His full name was Harold Radford Potter, and he went by Harry. He lived in England.
+							<i>"Strangely enough, a blow which does not even find its mark can, under certain circumstances, hurt more than one that finds its mark... he playfully picked up a stone and threw it at me. That, to me, seemed the way to attract the attention of a beast, to call a domestic animal back to its job, a creature with which you have so little in common that you do not even punish it." (24)</i>
 							<br></br><br></br>
-							<b>4) The "Mayhem Like Me" guy in the Allstate commercials is my second cousin (through marriage).</b> His name is Dean Winters.
+							<i>"The experiences of camp life show that man does have a choice of action. There were enough examples, often of a heroic nature, which proved that apathy could be overcome, irritability suppressed. Man </i>can<i> preserve a vestige of spiritual freedom, of independence of mind, even in such terrible conditions of psychic and physical stress." (65)</i>
 							<br></br><br></br>
-							<b>5) My great uncle on my mother's side was the famous Spanish comedian José Luis Coll.</b>
+							<i>"[A]ny man can, even under such circumstance, decide what shall become of him — mentally and spiritually. He may retain his humanity even in a concentration camp. Dostoevsky said once, 'There is only one thing that I dread: not to be worthy of my sufferings.' These words frequently came to my mind after I became acquainted with those martyrs whose behavior in camp, whose suffering and death, bore witness to the fact that the last inner freedom cannot be lost. It can be said that they were worthy of their sufferings; the way they bore their suffering was a genuine inner achievement. It is this spiritual freedom — which cannot be taken away — that makes life meaningful and purposeful." (66-67)</i>
 							<br></br><br></br>
-							<b>6) My grandfather on my mother's side traveled frequently for his work and decorated his house with over a thousand small owl figurines collected from across the globe.</b> Side note: I now need to find somewhere to put over a thousand small owl figurines.
+							<i>"The death rate in the week between Christmas, 1944, and New Year's, 1945, increased in camp beyond all previous experience. In [the chief doctor's] opinion, the explanation for this increase did not lie in the harder working conditions or the deterioration of our food supplies or a change of weather or new epidemics. It was simply that the majority of prisoners had lived in the naïve hope that they would be home again by Christmas... Nietzsche's words, 'He who has a why can bear almost any how.'" (76)</i>
 							<br></br><br></br>
-							<b>7) My third cousin, Sean O'Dwyer, was the recording engineer for the Blink-182 album <i>Enema of the State</i> featuring the hit "All The Small Things."</b> 
+							<i>"[I]t is impossible to define the meaning of life in a general way. Questions about the meaning of life can never be answered by sweeping statements. 'Life' does not mean something vague, but something very real and concrete, just as life's tasks are also very real and concrete. They form a man's destiny, which is different and unique for each individual. No man and no destiny can be compared with any other man or any other destiny." (77)</i>
+							<br></br><br></br>
+							<i>"I remember two cases of would-be suicide... Both used the typical argument — they had nothing more to expect from life. In both cases it was a question of getting them to realize that life was still expecting something from them; something in the future was expected of them." (79)</i>
+							<br></br><br></br>
+							<i>"According to logotherapy, this striving to find a meaning in one's life is the primary motivational force in man. That is why I speak of a </i>will to meaning<i> in contrast with the pleasure principle (or, as we could also term it, the </i>will to pleasure<i>) on which Freudian psychology is centered, as well as in contrast to the </i>will to power<i> on which Adlerian psychology, using the term 'striving for superiority,' is focused." (99)</i>
+							<br></br><br></br>
+							<i>"To put the question [of the meaning of life] in general terms would be comparable to the question posed to a chess champion: 'Tell me, Master, what is the best move in the world?' There is simply no such thing as the best or even a good move apart from a particular situation in a game and the particular personality of one's opponent. The same holds for human existence. One should not search for an abstract meaning of life. Everyone has his own specific vocation or mission in life to carry out a concrete assignment which demands fulfillment. Therein he cannot be replaced, nor can his life be repeated. Thus, everyone's task is unique as is his specific opportunity to implement it." (108-109)</i>
 						</div>
 				</div>
 			</React.Fragment>
@@ -1169,8 +1211,7 @@ const myArticles = [
 	article_13,
 	article_14,
 	article_15,
-	article_16,
-	article_17
+	article_16
 ];
 
 export default myArticles;
