@@ -496,7 +496,7 @@ function article_7() {
 function article_8() {
 	return {
 		id: "8",
-		date: "July 99, 2024", //20
+		date: "July 20, 2024",
 		title: "8: Mind, Body, Spandrels, and Sensation",
 		description:
 			"Thoughts on the relationship between the mind and the body.",
